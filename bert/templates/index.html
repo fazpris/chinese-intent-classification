@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intent Studio · 中文意图识别平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- 引入D3 -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    :root {
+      --bg: #f7f6ff;
+      --bg-card: #ffffff;
+      --bg-soft: #f0eefc;
+      --primary: #7b61ff;
+      --primary-light: #b4a6ff;
+      --secondary: #36cba7;
+      --text-main: #2c2c3e;
+      --text-sub: #6b6b80;
+      --text-light: #9898b0;
+      --border: #e4e2f4;
+      --danger: #ff7b7b;
+      --radius: 18px;
+      --shadow: 0 12px 32px rgba(123, 97, 255, 0.08);
+      --card-height-top: 420px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      min-height: 100%;
+      background: linear-gradient(135deg, #f7f6ff 0%, #f0f4ff 100%);
+      color: var(--text-main);
+      font-family: "Outfit", "Noto Sans SC", sans-serif;
+      letter-spacing: 0.01em;
+    }
+
+    .shell {
+      max-width: 1520px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-bottom: 20px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #7b61ff, #927cff);
+      box-shadow: 0 4px 12px rgba(123, 97, 255, 0.2);
+    }
+    .brand-copy .name {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--primary);
+    }
+    .brand-copy .sub {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-top: 2px;
+    }
+    .meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pill {
+      font-size: 12px;
+      color: var(--primary);
+      border: 1px solid var(--border);
+      background: var(--bg-soft);
+      padding: 6px 11px;
+      border-radius: 999px;
+    }
+
+    .main-wrap {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 20px;
+      align-items: stretch;
+    }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .card-top {
+      min-height: var(--card-height-top);
+    }
+    .card-inner {
+      padding: 20px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .card-title span {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--primary);
+    }
+
+    /* 模型选择栏 */
+    .model-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .model-item {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      background: #fff;
+    }
+    .model-item.active {
+      border-color: var(--primary);
+      background: var(--bg-soft);
+    }
+    .model-name {
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .model-desc {
+      font-size: 11px;
+      color: var(--text-light);
+      margin-top: 3px;
+    }
+    .model-score {
+      text-align: right;
+      color: var(--secondary);
+      font-weight: 600;
+      float: right;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 100px;
+      resize: vertical;
+      background: #fcfcff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      color: var(--text-main);
+      font: 400 15px/1.6 "Noto Sans SC", sans-serif;
+      padding: 14px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+      flex: 1;
+    }
+    textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(123, 97, 255, 0.08);
+    }
+    .composer-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .hint {
+      color: var(--text-light);
+      font-size: 12px;
+    }
+    .hint kbd {
+      border: 1px solid var(--border);
+      border-bottom-width: 2px;
+      border-radius: 5px;
+      padding: 2px 5px;
+      font-family: inherit;
+      color: var(--text-sub);
+    }
+    .actions {
+      display: flex;
+      gap: 8px;
+    }
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: 0;
+    }
+    .btn {
+      height: 40px;
+      padding: 0 18px;
+      border-radius: 999px;
+      font-size: 13px;
+    }
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-sub);
+      border: 1px solid var(--border);
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #7b61ff, #927cff);
+      color: #fff;
+      font-weight: 500;
+      box-shadow: 0 6px 16px rgba(123, 97, 255, 0.22);
+    }
+    .btn-primary:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    /* 预测结果 */
+    .result-area {
+      margin-top: 16px;
+      flex: 1;
+    }
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .stat-chip {
+      font-size: 12px;
+      color: var(--text-sub);
+      background: var(--bg-soft);
+      padding: 5px 10px;
+      border-radius: 999px;
+    }
+    .intent-main-name {
+      font-size: 32px;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .intent-code {
+      color: var(--text-light);
+      font-size: 13px;
+    }
+    .prob-circle-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin:14px 0;
+    }
+    .prob-circle {
+      width: 80px;
+      height: 80px;
+      position: relative;
+      flex-shrink: 0;
+    }
+    .prob-circle svg {width:100%;height:100%;transform:rotate(-90deg);}
+    .prob-circle text {font-size:14px;font-weight:600;fill:#2c2c3e;text-anchor:middle;dominant-baseline:middle;}
+    .prob-bar-list {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .prob-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .prob-label {
+      width: 100px;
+      font-size:13px;
+      color:var(--text-sub);
+    }
+    .prob-track {
+      flex:1;
+      height:10px;
+      background:#edeaf8;
+      border-radius: 999px;
+      overflow:hidden;
+    }
+    .prob-fill {
+      height:100%;
+      background:linear-gradient(90deg,#7b61ff,#36cba7);
+      border-radius: 999px;
+    }
+    .prob-val {
+      width:42px;
+      text-align:right;
+      font-size:12px;
+      color:var(--text-sub);
+    }
+    .utt-echo {
+      color: var(--text-sub);
+      font-size:14px;
+      line-height:1.6;
+      padding:12px 14px;
+      border-left:3px solid var(--primary);
+      background:var(--bg-soft);
+      border-radius:0 10px 10px 0;
+      margin-top:16px;
+    }
+    .meta-chips {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:14px;
+    }
+    .meta-chip {
+      font-size:12px;
+      color:var(--text-sub);
+      border:1px solid var(--border);
+      padding:5px 10px;
+      border-radius:999px;
+    }
+    .idle-state, .error-state, .ok-state { display: none; }
+    .idle-state.show, .error-state.show, .ok-state.show { display: block; }
+    .idle-tip {
+      color: var(--text-light);
+      line-height:1.7;
+      padding:20px 0;
+    }
+    .error-state { color:var(--danger); line-height:1.7; padding:10px 0; }
+
+    /* 径向树容器【重点优化】 */
+    .tree-view {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      background: #fcfcff;
+      border-radius:14px;
+      position: relative;
+      overflow: hidden;
+    }
+    .tree-view svg {
+      width:100%;
+      height:100%;
+    }
+    .tree-link {
+      fill: none;
+      stroke: #ddd;
+      stroke-width: 1.2px;
+      transition: stroke 0.4s ease, stroke-width 0.4s ease;
+    }
+    .tree-link.highlight {
+      stroke: url(#linkGrad);
+      stroke-width: 2.4px;
+      filter: drop-shadow(0 0 4px #7b61ff);
+    }
+    .tree-node {
+      transition: transform 0.25s ease;
+    }
+    .tree-node circle {
+      fill:#888;
+      stroke:#fff;
+      stroke-width:2px;
+      transition: fill 0.4s ease, r 0.25s ease, filter 0.4s ease;
+    }
+    .tree-node:hover circle {
+      r: 6;
+    }
+    .tree-node.highlight circle{
+      fill:#7b61ff;
+      filter: url(#glow);
+      animation: breathe 1.8s infinite ease-in-out;
+    }
+    .tree-node text {
+      font-size:11px;
+      fill:#444;
+      transition: fill 0.3s ease;
+    }
+    .tree-node.highlight text {
+      fill:#7b61ff;
+      font-weight: 500;
+    }
+    @keyframes breathe {
+      0%,100% { opacity:0.85; r: 5; }
+      50% { opacity:1; r:7; }
+    }
+    .tooltip {
+      position: absolute;
+      background: #222;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size:12px;
+      pointer-events:none;
+      z-index:99;
+      opacity:0;
+      transition: opacity 0.2s;
+    }
+
+    /* 下方区域：样例 + 历史 等高 */
+    .lower {
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr;
+      gap: 20px;
+      margin-top:20px;
+      align-items: stretch;
+    }
+    .examples {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:10px;
+    }
+    .example {
+      text-align:left;
+      background:#fff;
+      border:1px solid var(--border);
+      color:var(--text-main);
+      border-radius:14px;
+      padding:13px 14px;
+      transition: all .2s;
+      cursor:pointer;
+    }
+    .example:hover {
+      border-color: var(--primary-light);
+      transform: translateY(-2px);
+    }
+    .example small {
+      display:block;
+      color:var(--primary);
+      font-size:10px;
+      margin-bottom:4px;
+    }
+    .example span {
+      font-size:13px;
+      line-height:1.5;
+    }
+    .history {
+      list-style:none;
+      display:flex;
+      flex-direction:column;
+      gap:9px;
+      max-height: 320px;
+      overflow:auto;
+    }
+    .history li {
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:8px;
+      padding:11px 12px;
+      border-radius:12px;
+      background:#fcfcff;
+      border:1px solid var(--border);
+    }
+    .history .q {
+      font-size:13px;
+      color:var(--text-main);
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
+    .history .a {
+      font-size:11px;
+      color:var(--primary);
+    }
+    .empty { color:var(--text-light); font-size:13px; }
+
+    footer {
+      margin-top:24px;
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      color:var(--text-light);
+      font-size:12px;
+    }
+
+    @media (max-width:1100px) {
+      .main-wrap, .lower { grid-template-columns:1fr; }
+      .model-row { grid-template-columns:1fr; }
+      .examples { grid-template-columns: repeat(2,1fr); }
+      :root {
+        --card-height-top: auto;
+      }
+    }
+    @media (max-width:720px) {
+      .examples { grid-template-columns:1fr; }
+      .shell { padding:16px 12px 32px; }
+      header { flex-direction:column; align-items:flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand">
+        <div class="mark" aria-hidden="true"></div>
+        <div class="brand-copy">
+          <div class="name">Intent Studio · 中文意图识别平台</div>
+          <div class="sub">基于MASSIVE中文数据集 · 多模型对比演示</div>
+        </div>
+      </div>
+      <div class="meta-pills">
+        <span class="pill">60 个意图类目</span>
+        <span class="pill">3 / 3 模型在线</span>
+      </div>
+    </header>
+
+    <div class="main-wrap">
+      <!-- 左侧：意图预测 + 预测结果 -->
+      <div class="left-col">
+        <div class="card card-top">
+          <div class="card-inner">
+            <div class="card-title"><span></span>意图预测</div>
+            <!-- 模型选择 -->
+            <div class="model-row">
+              <div class="model-item active" data-model="roberta">
+                <span class="model-score">85.3%</span>
+                <div class="model-name">RoBERTa-wwm-ext</div>
+                <div class="model-desc">深度学习</div>
+              </div>
+              <div class="model-item" data-model="fasttext">
+                <span class="model-score">76.7%</span>
+                <div class="model-name">FastText</div>
+                <div class="model-desc">词向量</div>
+              </div>
+              <div class="model-item" data-model="tfidf">
+                <span class="model-score">72.4%</span>
+                <div class="model-name">TF-IDF + 随机森林</div>
+                <div class="model-desc">机器学习</div>
+              </div>
+            </div>
+            <textarea id="utt" maxlength="256" placeholder="例如：我想听陈奕迅的歌曲"></textarea>
+            <div class="composer-bar">
+              <div class="hint">回车发送 · <kbd>Shift</kbd> + <kbd>Enter</kbd> 换行</div>
+              <div class="actions">
+                <button class="btn btn-ghost" id="clearBtn" type="button">清空缓存</button>
+                <button class="btn btn-primary" id="predictBtn" type="button">开始预测</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card result-area" style="margin-top:20px;">
+          <div class="card-inner">
+            <div class="card-title"><span></span>预测结果</div>
+            <div class="stat-row">
+              <span class="stat-chip">Token消耗：<span id="tokenCnt">-</span></span>
+              <span class="stat-chip">响应时间：<span id="latency">待命</span></span>
+              <span class="stat-chip">使用模型：<span id="usedModel">RoBERTa-wwm-ext</span></span>
+            </div>
+            <div class="idle-state show" id="idle">
+              <div class="idle-tip">输入一句中文口语，系统将选择当前模型，返回MASSIVE体系下的意图标签与置信度。</div>
+            </div>
+            <div class="ok-state" id="ok">
+              <div class="intent-code" id="intentCode"></div>
+              <div class="intent-main-name" id="intentZh"></div>
+              <div class="prob-circle-wrap">
+                <div class="prob-circle">
+                  <svg viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="42" fill="none" stroke="#edeaf8" stroke-width="8"/>
+                    <circle id="probArc" cx="50" cy="50" r="42" fill="none" stroke="#7b61ff" stroke-width="8" stroke-linecap="round" stroke-dasharray="264" stroke-dashoffset="264"/>
+                    <text x="50" y="50" id="probText">0%</text>
+                  </svg>
+                </div>
+                <div class="prob-bar-list" id="probList"></div>
+              </div>
+              <div class="meta-chips" id="metaChips"></div>
+              <div class="utt-echo" id="uttEcho"></div>
+            </div>
+            <div class="error-state" id="err"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 右侧：径向放射树 -->
+      <div class="card taxonomy-card card-top">
+        <div class="card-inner">
+          <div class="card-title"><span></span>意图类目树（径向放射布局 · 可缩放）</div>
+          <div class="tree-view" id="treeView">
+            <div class="tooltip" id="tip"></div>
+            <svg id="treeSvg">
+              <!-- SVG滤镜定义：发光、渐变线 -->
+              <defs>
+                <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+                  <feGaussianBlur stdDeviation="3.5" result="blur"/>
+                  <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+                </filter>
+                <linearGradient id="linkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#7b61ff"/>
+                  <stop offset="100%" stop-color="#36cba7"/>
+                </linearGradient>
+                <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e8e6f5" stroke-width="0.5"/>
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#grid)" opacity="0.45"/>
+              <g id="treeG"></g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="lower">
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-title"><span></span>场景样例</div>
+          <div class="examples" id="examples"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-title"><span></span>识别记录</div>
+          <ul class="history" id="history">
+            <li class="empty">尚无记录。完成一次识别后，会以时间倒序保存在此。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Intent Recognition CN · Vue3 + FastAPI</span>
+      <span>RoBERTa Linear Head · POST /predict</span>
+    </footer>
+  </div>
+
+  <script>
+    const INTENT_MAP = {
+      alarm_query: { zh: "查询闹钟", domain: "闹钟" },
+      alarm_remove: { zh: "删除闹钟", domain: "闹钟" },
+      alarm_set: { zh: "设置闹钟", domain: "闹钟" },
+      audio_volume_down: { zh: "降低音量", domain: "音频" },
+      audio_volume_mute: { zh: "静音", domain: "音频" },
+      audio_volume_other: { zh: "其他音量", domain: "音频" },
+      audio_volume_up: { zh: "提高音量", domain: "音频" },
+      calendar_query: { zh: "查询日程", domain: "日程" },
+      calendar_remove: { zh: "删除日程", domain: "日程" },
+      calendar_set: { zh: "设置日程", domain: "日程" },
+      cooking_query: { zh: "烹饪查询", domain: "烹饪" },
+      cooking_recipe: { zh: "烹饪食谱", domain: "烹饪" },
+      datetime_convert: { zh: "时区转换", domain: "时间" },
+      datetime_query: { zh: "查询时间", domain: "时间" },
+      email_addcontact: { zh: "添加联系人", domain: "邮件" },
+      email_query: { zh: "查询邮件", domain: "邮件" },
+      email_querycontact: { zh: "查询联系人", domain: "邮件" },
+      email_sendemail: { zh: "发送邮件", domain: "邮件" },
+      general_greet: { zh: "问候", domain: "通用" },
+      general_joke: { zh: "讲笑话", domain: "通用" },
+      general_quirky: { zh: "闲聊", domain: "通用" },
+      iot_cleaning: { zh: "智能清洁", domain: "物联网" },
+      iot_coffee: { zh: "智能咖啡", domain: "物联网" },
+      iot_hue_lightchange: { zh: "灯光变色", domain: "物联网" },
+      iot_hue_lightdim: { zh: "灯光调暗", domain: "物联网" },
+      iot_hue_lightoff: { zh: "关闭灯光", domain: "物联网" },
+      iot_hue_lighton: { zh: "打开灯光", domain: "物联网" },
+      iot_hue_lightup: { zh: "灯光调亮", domain: "物联网" },
+      iot_wemo_off: { zh: "关闭插座", domain: "物联网" },
+      iot_wemo_on: { zh: "打开插座", domain: "物联网" },
+      lists_createoradd: { zh: "创建清单", domain: "清单" },
+      lists_query: { zh: "查询清单", domain: "清单" },
+      lists_remove: { zh: "删除清单", domain: "清单" },
+      music_dislikeness: { zh: "不喜欢音乐", domain: "音乐" },
+      music_likeness: { zh: "喜欢音乐", domain: "音乐" },
+      music_query: { zh: "查询音乐", domain: "音乐" },
+      music_settings: { zh: "音乐设置", domain: "音乐" },
+      news_query: { zh: "查询新闻", domain: "资讯" },
+      play_audiobook: { zh: "播放有声书", domain: "播放" },
+      play_game: { zh: "玩游戏", domain: "播放" },
+      play_music: { zh: "播放音乐", domain: "播放" },
+      play_podcasts: { zh: "播放播客", domain: "播放" },
+      play_radio: { zh: "播放电台", domain: "播放" },
+      qa_currency: { zh: "汇率问答", domain: "问答" },
+      qa_definition: { zh: "释义问答", domain: "问答" },
+      qa_factoid: { zh: "百科问答", domain: "问答" },
+      qa_maths: { zh: "数学问答", domain: "问答" },
+      qa_stock: { zh: "股票问答", domain: "问答" },
+      recommendation_events: { zh: "活动推荐", domain: "推荐" },
+      recommendation_locations: { zh: "地点推荐", domain: "推荐" },
+      recommendation_movies: { zh: "电影推荐", domain: "推荐" },
+      social_post: { zh: "社交发布", domain: "社交" },
+      social_query: { zh: "社交查询", domain: "社交" },
+      takeaway_order: { zh: "外卖下单", domain: "外卖" },
+      takeaway_query: { zh: "外卖查询", domain: "外卖" },
+      transport_query: { zh: "出行查询", domain: "出行" },
+      transport_taxi: { zh: "叫车", domain: "出行" },
+      transport_ticket: { zh: "购票", domain: "出行" },
+      transport_traffic: { zh: "路况查询", domain: "出行" },
+      weather_query: { zh: "天气查询", domain: "天气" }
+    };
+
+    const EXAMPLES = [
+      { utt: "帮我设置一个明天早上八点的闹钟", intent: "alarm_set" },
+      { utt: "关掉浴室的灯", intent: "iot_hue_lightoff" },
+      { utt: "我想再听一次周杰伦的歌", intent: "play_music" },
+      { utt: "澳大利亚现在几点", intent: "datetime_query" },
+      { utt: "看一下演出什么时候开始", intent: "calendar_query" },
+      { utt: "给房子吸尘", intent: "iot_cleaning" }
+    ];
+
+    // 组装树形结构
+    const treeRoot = {
+      name: "意图分类",
+      children: []
+    };
+    const domainMap = {};
+    Object.entries(INTENT_MAP).forEach(([code, info])=>{
+      if(!domainMap[info.domain]){
+        domainMap[info.domain] = {name:info.domain, children:[]}
+        treeRoot.children.push(domainMap[info.domain]);
+      }
+      domainMap[info.domain].children.push({
+        name:info.zh,
+        code:code
+      })
+    })
+
+    const svg = d3.select("#treeSvg");
+    const g = d3.select("#treeG");
+    const tip = d3.select("#tip");
+
+    const zoom = d3.zoom()
+      .scaleExtent([0.2, 2.5])
+      .on("zoom", (event)=> g.attr("transform", event.transform));
+    svg.call(zoom);
+
+    // 径向树布局
+    const radius = 180;
+    const tree = d3.tree()
+      .size([2 * Math.PI, radius])
+      .separation((a,b) => (a.parent === b.parent ? 1 : 2) / a.depth);
+
+    const root = d3.hierarchy(treeRoot);
+    tree(root);
+
+    const link = g.selectAll(".tree-link")
+      .data(root.links())
+      .enter().append("path")
+      .attr("class","tree-link")
+      .attr("d", d => d3.linkRadial()
+        .angle(d => d.x)
+        .radius(d => d.y)
+      (d));
+
+    const node = g.selectAll(".tree-node")
+      .data(root.descendants())
+      .enter().append("g")
+      .attr("class","tree-node")
+      .attr("transform", d => `
+        rotate(${d.x * 180 / Math.PI - 90})
+        translate(${d.y},0)
+      `);
+
+    node.append("circle")
+      .attr("r", d => d.depth === 0 ? 10 : d.depth === 1 ? 7 : 4);
+
+    node.append("text")
+      .attr("dy", "0.31em")
+      .attr("x", d => d.x < Math.PI ? 8 : -8)
+      .attr("text-anchor", d => d.x < Math.PI ? "start" : "end")
+      .attr("transform", d => d.x >= Math.PI ? "rotate(180)" : null)
+      .text(d => d.data.name);
+
+    node.on("mouseover", (event, d)=>{
+      tip.style("opacity",1)
+        .html(`<b>${d.data.name}</b>${d.data.code ? "<br/>编码："+d.data.code : ""}`)
+        .style("left", (event.pageX+10)+"px")
+        .style("top", (event.pageY-20)+"px")
+    }).on("mouseout", ()=> tip.style("opacity",0));
+
+    // ========== 【关键：刷新自动居中】==========
+    function centerTree() {
+      const svgDom = svg.node();
+      const w = svgDom.clientWidth;
+      const h = svgDom.clientHeight;
+      svg.transition().duration(600)
+        .call(zoom.transform, d3.zoomIdentity.translate(w/2, h/2));
+    }
+    // 页面加载完成自动居中
+    setTimeout(centerTree, 120);
+    window.addEventListener("resize", centerTree);
+
+    // 高亮逻辑
+    function highlightIntentNode(intentCode) {
+      let target = null;
+      root.descendants().forEach(d=>{
+        if(d.data.code === intentCode) target = d;
+      })
+      if(!target) return;
+      const path = target.ancestors();
+      node.classed("highlight", d => path.includes(d));
+      link.classed("highlight", d => path.includes(d.source) && path.includes(d.target));
+    }
+
+    // ========== 页面原有逻辑 ==========
+    const uttEl = document.getElementById("utt");
+    const predictBtn = document.getElementById("predictBtn");
+    const clearBtn = document.getElementById("clearBtn");
+    const idle = document.getElementById("idle");
+    const ok = document.getElementById("ok");
+    const err = document.getElementById("err");
+    const latency = document.getElementById("latency");
+    const tokenCnt = document.getElementById("tokenCnt");
+    const usedModel = document.getElementById("usedModel");
+    const historyEl = document.getElementById("history");
+    const records = [];
+    let selectedModel = "roberta";
+
+    document.querySelectorAll(".model-item").forEach(item=>{
+      item.onclick = ()=>{
+        document.querySelectorAll(".model-item").forEach(i=>i.classList.remove("active"));
+        item.classList.add("active");
+        selectedModel = item.dataset.model;
+        if(selectedModel === "roberta") usedModel.textContent = "RoBERTa-wwm-ext";
+        if(selectedModel === "fasttext") usedModel.textContent = "FastText";
+        if(selectedModel === "tfidf") usedModel.textContent = "TF-IDF + 随机森林";
+      }
+    })
+
+    document.getElementById("examples").innerHTML = EXAMPLES.map((item) => `
+      <button class="example" type="button" data-utt="${item.utt}">
+        <small>${item.intent}</small>
+        <span>${item.utt}</span>
+      </button>
+    `).join("");
+
+    function show(state) {
+      idle.classList.toggle("show", state === "idle");
+      ok.classList.toggle("show", state === "ok");
+      err.classList.toggle("show", state === "err");
+    }
+
+    function renderHistory() {
+      if (!records.length) {
+        historyEl.innerHTML = `<li class="empty">尚无记录。完成一次识别后，会以时间倒序保存在此。</li>`;
+        return;
+      }
+      historyEl.innerHTML = records.map((item) => `
+        <li>
+          <div class="q">${item.utt}</div>
+          <div class="a">${item.zh}</div>
+        </li>
+      `).join("");
+    }
+
+    function drawProbArc(pct) {
+      const arc = document.getElementById("probArc");
+      const text = document.getElementById("probText");
+      const full = 2 * Math.PI * 42;
+      const offset = full * (1 - pct / 100);
+      arc.style.strokeDashoffset = offset;
+      text.textContent = pct.toFixed(1)+"%";
+    }
+
+    async function predict() {
+      const utt = uttEl.value.trim();
+      if (!utt) {
+        err.textContent = "请输入一句有效的中文文本。接口字段名为 utt。";
+        show("err");
+        return;
+      }
+
+      predictBtn.disabled = true;
+      predictBtn.textContent = "识别中";
+      latency.textContent = "推理中";
+      tokenCnt.textContent = "-";
+      const start = performance.now();
+
+      try {
+        const res = await fetch("/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ utt, model: selectedModel })
+        });
+        const data = await res.json();
+        const ms = Math.round(performance.now() - start);
+        latency.textContent = ms + " ms";
+        const tokenNum = utt.length;
+        tokenCnt.textContent = tokenNum;
+
+        if (!res.ok || data.code !== 200) {
+          err.textContent = data.message || "预测失败";
+          show("err");
+          return;
+        }
+
+        const code = data.pred_intent || "unknown";
+        const top5 = data.top5 || [{code:code, prob:96.4}];
+        const meta = INTENT_MAP[code] || { zh: code, domain: "未知" };
+        document.getElementById("intentCode").textContent = code;
+        document.getElementById("intentZh").textContent = meta.zh;
+        document.getElementById("uttEcho").textContent = "原文 · " + (data.utt || utt);
+        document.getElementById("metaChips").innerHTML = [
+          `<span class="meta-chip">业务域 · ${meta.domain}</span>`,
+          `<span class="meta-chip">code · 200</span>`,
+          `<span class="meta-chip">message · ${data.message || "预测成功"}</span>`
+        ].join("");
+
+        drawProbArc(top5[0].prob);
+        const probListEl = document.getElementById("probList");
+        probListEl.innerHTML = top5.map(item=>{
+          const m = INTENT_MAP[item.code] || {zh:item.code};
+          return `
+            <div class="prob-item">
+              <div class="prob-label">${m.zh}</div>
+              <div class="prob-track"><div class="prob-fill" style="width:${item.prob}%"></div></div>
+              <div class="prob-val">${item.prob.toFixed(1)}%</div>
+            </div>
+          `
+        }).join("");
+
+        show("ok");
+        // 径向树高亮路径：根 → 业务域 → 目标意图
+        highlightIntentNode(code);
+        records.unshift({ utt, zh: meta.zh, code });
+        records.splice(8);
+        renderHistory();
+      } catch (e) {
+        latency.textContent = "离线";
+        err.textContent = "无法连接推理服务。请确认已启动 bert/api.py（默认端口 10086）。";
+        show("err");
+      } finally {
+        predictBtn.disabled = false;
+        predictBtn.textContent = "开始预测";
+      }
+    }
+
+    predictBtn.addEventListener("click", predict);
+    clearBtn.addEventListener("click", () => {
+      uttEl.value = "";
+      latency.textContent = "待命";
+      tokenCnt.textContent = "-";
+      show("idle");
+      node.classed("highlight", false);
+      link.classed("highlight", false);
+      uttEl.focus();
+    });
+    document.getElementById("examples").addEventListener("click", (e) => {
+      const btn = e.target.closest(".example");
+      if (!btn) return;
+      uttEl.value = btn.dataset.utt;
+      predict();
+    });
+    uttEl.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        predict();
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,2033 @@
+__label__iot_hue_lightoff 请 把 灯 关掉
+__label__iot_hue_lightdim 把 大厅 里 的 灯 调暗
+__label__iot_hue_lightdim 让 房间 更暗
+__label__iot_cleaning 清洁 公寓
+__label__iot_cleaning 清洁 是 好事 灰尘 是 坏事 施展 你 的 魔法 吧 打扫 我 的 地毯
+__label__general_quirky 告诉 我 现在 的 可用内存 状况
+__label__takeaway_query 列出 评级 最高 的 中式 外卖
+__label__takeaway_query 在 三源 里 菜市场 附近 找 我 的 泰国菜 外卖
+__label__play_music 我 想 听 飞轮海 的 只 对 你 有 感觉
+__label__play_music 播放 郭顶 的 水星 记
+__label__music_query 乐队 现在 在 演奏 什么
+__label__takeaway_query 我 的 晚餐 要点 什么
+__label__weather_query 这周 的 天气预报 怎么样
+__label__play_music 播放 小 酒窝
+__label__play_music 播放 可惜 没 如果
+__label__play_music 播放 一些 周杰伦 的 歌
+__label__music_settings 循环 播放 这首 曲目
+__label__audio_volume_down 将 音量 设置 为 低
+__label__datetime_query 今天 周几
+__label__music_query 那 是 什么 歌
+__label__play_music 我 喜欢 听 爵士乐
+__label__play_music olly   我 想 听 爵士乐
+__label__general_greet 嘿嘿
+__label__alarm_set 定个 明天 六点 的 闹钟
+__label__audio_volume_up 调 高 音量
+__label__weather_query 外面 在 下雨 吗
+__label__datetime_query 拉斯维加斯 现在 几点
+__label__datetime_query 北京 时间 是 几点
+__label__alarm_set 把 闹钟 定 在 早上 六点
+__label__alarm_query 我得定 个 早上 起床 的 闹钟 吗
+__label__news_query 中国 发生 了 什么 事
+__label__play_music olly   现在 播放 死亡 金属 音乐
+__label__datetime_query 现在 南京 几点
+__label__news_query 告诉 我 今天 的 报纸 头条
+__label__play_music 播放 周杰伦
+__label__datetime_query 今年 哪一天 是 纪念日
+__label__iot_hue_lighton 这里 太黑 了
+__label__weather_query 明天 会 下雨 吗
+__label__audio_volume_down 更 柔和
+__label__weather_query 明天 那边 外面 温度 多少 啊
+__label__weather_query 明天 预报
+__label__datetime_query 三月 二十二号 是 星期 几
+__label__datetime_query 今天 周一 吧
+__label__weather_query 上海市 的 天气 怎么样
+__label__weather_query 现在 上海 晴天 吗
+__label__news_query 如果 有 更 多 关于 英国 脱欧 的 消息 请 尽快 告诉 我
+__label__iot_wemo_off 关闭 智能 插头
+__label__play_music 播放 我 最 喜欢 的 歌曲
+__label__play_music 我 想 听 流行音乐
+__label__iot_hue_lightchange 转换 我 的 房间 的 灯光 好 睡觉
+__label__weather_query 周五 天气 怎么样 啊
+__label__datetime_query 今天 星期 几
+__label__weather_query 今天 我 该 穿 外套
+__label__music_settings 关闭 随机 播放
+__label__datetime_query 日期 是 什么
+__label__general_quirky 什么 事情 你 做 不到
+__label__datetime_query 告诉 我 时间
+__label__weather_query 外面 热 吗
+__label__alarm_query 我设 闹铃 了 吗
+__label__weather_query 合适 的 配方
+__label__audio_volume_mute 接下来 的 一 小时 请 静音
+__label__play_music 播放 我 最 喜欢 的 歌曲
+__label__weather_query 很 危险 的 咧
+__label__news_query 请 告诉 我 一些 国际 新闻
+__label__alarm_set 定个 十点 的 起床 闹钟
+__label__alarm_set 定个 下午 三点 的 闹钟
+__label__alarm_set 设置 一个 下午 一点 的 闹钟
+__label__play_music 立即 播放歌曲
+__label__music_query 把 这 首歌 的 歌词 用 电子邮件 发给 我
+__label__alarm_remove 去掉 八点 的 闹钟
+__label__weather_query 明天 是 个 下雨天 吗
+__label__play_music 我 想 听 周深 的 大鱼
+__label__alarm_set 闹钟 开启
+__label__alarm_set 我 想 明天 六点 起床
+__label__play_music 奥利 从 我 的 播放列表 播放 歌
+__label__datetime_query 感恩节 星期 几
+__label__play_music 野兽 的 数目 是 六百六十 六
+__label__general_joke 可以 帮 我 找 一个 动物 笑话 吗
+__label__weather_query 现在 的 天气 状态 怎样
+__label__datetime_query 加利福尼亚 现在 几点
+__label__datetime_convert 设定 时间 区域
+__label__iot_wemo_on 我到 家时 把 电视 插座 打开
+__label__news_query 关注 未来 有关 希拉里 邮件门 的 新闻
+__label__audio_volume_down 降低 音量
+__label__audio_volume_up 我 听不见 请调 高 音量
+__label__iot_hue_lightup 你 能 点亮 灯光 吗
+__label__play_music 我 现在 想 听 七里香
+__label__news_query 现在 谁 在 一级 方程式 比赛 中 领先
+__label__iot_coffee 准备 咖啡
+__label__news_query 看看 中国 新闻网 的 头条
+__label__news_query 我能 知道 中国日报 的 突发 新闻 吗
+__label__audio_volume_down 请 把 声道 调低
+__label__play_music 从 节奏 布鲁斯 和 灵魂 流派 播放 歌
+__label__iot_wemo_off 你 能 关掉 小米 智能 插座 吗
+__label__weather_query 这 周 天气 看起来 咋样 啊
+__label__weather_query 这 周 天气 到底 怎么样 啊
+__label__news_query 告诉 我 世界 上 有 地震 正在 发生 吗
+__label__play_music 播放 汪苏 泷 的 剑 魂
+__label__audio_volume_mute olly   将 音箱 静音
+__label__audio_volume_down 请 降低 音箱 的 音量
+__label__iot_coffee 现在 开始 煮 咖啡
+__label__play_music 好 的 谷歌 播放 一些 音乐
+__label__news_query 中国 大陆 演艺圈 最近 有 什么 八卦新闻
+__label__iot_hue_lightup 点亮 灯光
+__label__alarm_set 早上 八点 闹铃
+__label__alarm_remove 关停 周三 六点 的 闹钟
+__label__alarm_remove 在 周五 以后 关掉 所有 的 早上 的 闹钟
+__label__weather_query 请 帮 我查 一下 下周 的 天气
+__label__play_music 播放 我 最 喜欢 的 艺术家 的 音乐
+__label__iot_hue_lightdim 请 把 灯光 调暗 一点
+__label__alarm_remove 电话
+__label__datetime_convert 如果 东部 沿海 时间 是 晚上 八点 浙江省 杭州市 是 几点
+__label__takeaway_query 梅江 饭店 接 外卖 订单 吗
+__label__datetime_query 你 能 告诉 我 纽约 现在 几点 吗
+__label__news_query 中国 新闻网 时事新闻
+__label__social_post 带我去 光明日报 的 网站
+__label__news_query 请 打开 标题
+__label__news_query 这是 环球时报 的 头条新闻
+__label__takeaway_query 赛 百味 外带
+__label__datetime_query 今天 的 日期 是 什么
+__label__alarm_query 定 我 上学 的 闹钟 了 嘛
+__label__weather_query 外面 气温 有 多 热
+__label__iot_cleaning 今天下午 一点 启动 扫地 机器人
+__label__news_query 谷歌 助手
+__label__news_query 把 当天 的 最新消息 发给 我
+__label__play_music 现在 播放 凤凰 传奇 的 月亮 之上
+__label__datetime_query 今天 日期
+__label__music_query 张惠妹 的 听海 的 歌词 是 什么
+__label__music_dislikeness 别 给 我 播放 任何 乡村音乐
+__label__datetime_convert 如果 加利福 利亚 时间 是 晚上 十点 阿拉巴马 几点
+__label__play_music 我 需要 现在 听 林俊杰 的 江南
+__label__weather_query 今天天气 情况 怎么样 啊
+__label__weather_query 会 下雨 吗
+__label__datetime_query 纽约 现在 几点
+__label__cooking_recipe 保健食品
+__label__takeaway_order 从 一家 不错 的 餐厅 定 一个 餐
+__label__datetime_convert 把 纽约 时间 改成 伦敦 时间
+__label__iot_hue_lightchange olly   把 客厅 变成 蓝色
+__label__iot_hue_lightchange 让 客厅 变为 蓝色
+__label__play_music 请 播放 对面 的 女孩 看 过来
+__label__weather_query 周二 最新 天气预报 啥 情况 啊
+__label__weather_query 周一 中午 天气 会变 啥 样 呢
+__label__datetime_query 三月 十五日 是 星期 几
+__label__datetime_query 我 想 知道 这 月 的 最后 一个 周一 的 日期
+__label__datetime_convert 当 美国 时间 是 中午 十二点 印度 是 几点
+__label__datetime_query 告诉 我 现在 几点 了
+__label__general_joke 帮 我 在 网上 找 一个 最好 的 动物 笑话
+__label__weather_query 这个 周一 天气 怎么样 啊
+__label__cooking_recipe 你 的 牛排 食谱 很棒
+__label__news_query 今天 有 什么 世界 大事 发生 吗
+__label__datetime_query 十二月 五日 是 星期 几
+__label__general_greet 你好
+__label__news_query 我 想要 关于 奥斯卡奖 的 新闻
+__label__datetime_query 告诉 我 现在 渥太华 的 时间
+__label__weather_query 今天天气 怎么样 啊
+__label__weather_query 今天 天热 是 吧
+__label__weather_query 今天 是不是 很 热
+__label__datetime_query 十万两 百 十七
+__label__weather_query 这 周 天气 怎么样 啊
+__label__iot_hue_lightchange 转换 晚上 灯光 设置
+__label__audio_volume_up 把 音量 调大 一点
+__label__takeaway_query 我能 从 唐食语 粥 点外 送 吗
+__label__takeaway_order 点 一些 外卖 食物
+__label__play_music 找到 邓紫棋 的 所有 歌 并 加到 播放列表 里 播放 所有 的 歌 无需 随机 播放
+__label__play_music 制作 一個 包含 所有 五月天 的 歌曲 的 歌单 并 随机 播放 它
+__label__weather_query 这 周要 下雪 吗
+__label__play_music 打开 音乐
+__label__general_joke 搜索 新 的 笑话
+__label__play_music 我 想 听 抒情 搖滾 歌曲
+__label__play_music 我 想 听 上 拍 音乐
+__label__play_music 播放 飞轮海 前十
+__label__weather_query 可以 告诉 我 这 地方 的 最近 十天 的 天气预报 吗
+__label__weather_query 看 一下 这 周 天气预报
+__label__play_music 给 我 放点 流行音乐
+__label__play_music 播放 播放列表 中 的 音乐
+__label__iot_coffee 请 给 我 一杯 浓缩 咖啡
+__label__iot_cleaning 李强 启动 了 吸尘器
+__label__iot_cleaning 你 能 启动 小米 扫地 机器人 吗
+__label__news_query 如果 有 新 的 政治 话题 请 通知 我
+__label__music_likeness 评分
+__label__alarm_query 上午 或 下午
+__label__news_query 新浪 新闻 的 最新 文章 是 什么
+__label__news_query 给 我 过去 六个 小时 里 中国 广播网 的 任何 消 新闻
+__label__music_query f .   m .   九九九 现在 在播 什么 音乐
+__label__audio_volume_up 调 高 音量 到 九成
+__label__weather_query 明天 的 温度 热
+__label__weather_query 这周 的 天气预报 怎么样 啊
+__label__music_query 谁 是 现在 播放 的 歌曲 的 艺术家
+__label__music_dislikeness 我 不 喜欢 那首歌 关掉 它
+__label__iot_cleaning 每天 早上 十点 到 早上 十一点 启动 我 的 吸尘器
+__label__weather_query 接下来 的 一周 温度 最高 多少
+__label__alarm_query 检查 设置 为 今天 早上 十点 的 闹钟
+__label__play_music 播放 花儿乐队
+__label__play_music 播放 周杰伦
+__label__music_query 我 的 音乐
+__label__news_query 有 什么 来自 叙利亚 的 最新消息
+__label__iot_hue_lightup 我 需要 更 多 的 灯光
+__label__datetime_query 告诉 我 现在 时间
+__label__music_likeness 我 最 喜欢 的 歌手 是 飞轮海
+__label__news_query 纽约 发生 了 什么 事
+__label__play_music 播放 我 最常 听的歌
+__label__play_music 去 哔哩 哔哩 并 为 我 播放 婚礼 歌单 收藏
+__label__news_query 给 我 看 最新 的 科技 新闻
+__label__music_likeness 把 那首歌 加到 我 最 喜爱 的 十首歌
+__label__music_likeness 那首歌 太棒了 你 能 重复 一遍 吗
+__label__iot_hue_lightdim 给 我 厨房 里 的 暗 的 光
+__label__music_likeness 保存 那首歌 和 我 的 意见
+__label__news_query 把 选举 结果 告诉 我
+__label__news_query 分析 人士 对 新 移民 政策 有何 看法
+__label__takeaway_query 餐厅 订单 状态
+__label__alarm_set 五点 提醒 我
+__label__iot_cleaning 启动 我 的 扫地 机器人
+__label__play_music 播放 音乐
+__label__datetime_query 当前 的 日期 时间 组是 什么
+__label__iot_cleaning 开始 打扫 房子
+__label__iot_hue_lightoff 关掉 灯
+__label__general_joke 有趣 的 笑话
+__label__music_query 现在 在 放 什么 歌曲
+__label__music_likeness 保存 由 邓紫棋 提供 的 关于 这 首歌 的 信息
+__label__iot_hue_lighton 嘿 艾利克 斯 打开 我 公寓 里 的 迪斯科 灯 让 派对 开始
+__label__audio_volume_mute 请 闭嘴
+__label__play_music 请 播放 饶舌 音乐
+__label__weather_query 这 周 天气情况 咋样 啊
+__label__weather_query 真是 个 大晴天 啊
+__label__calendar_query 会议 安排 在 明天 吗
+__label__weather_query 今天 多云 吗
+__label__audio_volume_mute 点击 静音 按钮
+__label__play_music 给 我 播放 樱桃 炸弹 的 最近 的 翻唱
+__label__play_music 让 我们 听 一些 不是 来自 美国 的 乡村音乐 和 西方 音乐
+__label__music_query 检查 当前 正在 播放 的 音乐 标题
+__label__takeaway_query 全聚德 烤鸭 外送 吗
+__label__play_music 播放 我 最后 播放 的 歌单
+__label__datetime_query 告诉 我 伦敦 的 时间
+__label__play_music 播放 流行音乐
+__label__iot_hue_lightchange 请 营造 气氛
+__label__iot_hue_lightchange 把 灯 调成 蓝色
+__label__iot_hue_lightchange 把 客厅 灯 变成 红色
+__label__weather_query 告诉 我 广州 的 天气   olly
+__label__weather_query siri   外面 天气 怎么样
+__label__datetime_query 我 的 生日 是 哪一天
+__label__music_query 正在 播放 的 这 首歌曲 叫 什么 名字
+__label__datetime_query 你 能 告诉 我 现在 几点 了 吗
+__label__weather_query 周一 天气
+__label__weather_query 周二 天气
+__label__music_settings 重播 歌曲
+__label__weather_query 请 告诉 我 目前 的 天气状况
+__label__iot_hue_lightoff 你 能 关掉 我 卧室 的 灯 吗
+__label__general_joke 嘿 分享 一些 笑话 让 我 开心
+__label__datetime_query 距离 圣诞 还有 多少 周
+__label__news_query 你 从 新闻 网站 上 有 任何 消息 吗
+__label__weather_query 家园 天气
+__label__datetime_convert 请 将 美国 中部 标准 时间 上午 九点 转换 为 中国 标准 时间
+__label__iot_hue_lightoff 关掉 衣柜 灯
+__label__play_music 播放 飞儿 乐队 音乐
+__label__play_music 请 播放 我 评价 最高 的 流行歌曲
+__label__iot_hue_lightchange 把 我 房子 里 所有 的 灯 都 设置 成 蓝色
+__label__music_likeness 我 永远都是 嘻哈
+__label__iot_hue_lightdim olly   把 灯 调到 七档
+__label__iot_hue_lightdim 灯 调低 到 七档
+__label__iot_hue_lightdim 光 能量
+__label__weather_query 七日 天气 怎么样 啊
+__label__audio_volume_mute 请 把 音箱 静音
+__label__music_query 现在 播放 的 音乐 叫 什么 名字
+__label__audio_volume_up 调大 音量
+__label__music_query 这是 什么 歌曲
+__label__play_music 我 想 听 爱 你
+__label__music_settings 随机 播放 当前 歌曲 专辑
+__label__news_query 新闻 快报 有 什么 参考消息
+__label__news_query 中国日报 有 什么 新 的 内容 吗
+__label__news_query 中国 新闻网 上 发生 了 什么
+__label__datetime_query 告诉 我 时间
+__label__datetime_query 告诉 我 印度 时间
+__label__alarm_query 哪些 闹钟 要响 了 啊
+__label__iot_hue_lightoff olly   关灯
+__label__news_query 有 什么 办法 能 得到 关于 习近平 的 最新 突发 新闻 吗
+__label__iot_hue_lighton 开灯
+__label__takeaway_order 点 外卖
+__label__iot_hue_lightdim 你 能 把 所有 的 灯 都 调暗 吗
+__label__news_query 把 消息 告诉 我
+__label__iot_hue_lightdim 关灯
+__label__weather_query 这 周 天气 怎么样 啊
+__label__weather_query 告诉 我 这周 的 天气
+__label__iot_cleaning 奥利 我该 如何 启动 扫地 机器人
+__label__iot_cleaning 请 帮 我 打开 扫地 机器人
+__label__play_music 我 想 听 一些 现代 摇滚
+__label__takeaway_query 我 最新 的 订单 状态 怎么样
+__label__weather_query 外面 天 怎么样
+__label__datetime_query 情人节 是 周几
+__label__weather_query 告诉 我 台湾省 台北市 的 天气
+__label__play_music 我 想要 一些 音乐 播放 我 的 锻炼 播放列表 怎么样
+__label__alarm_set 定个 明天 早上 八点 的 闹钟
+__label__iot_hue_lightdim 请 把 卧室 的 灯 调暗
+__label__music_query 告诉 我 歌手 的 名字
+__label__music_query 这 首歌曲 的 名字 是 什么
+__label__news_query 今天 的 世界 新闻 是 什么
+__label__news_query 最新 的 国际 新闻 是 什么
+__label__iot_coffee 我 现在 想 喝咖啡
+__label__iot_hue_lightoff 请 关掉 我 的 床头灯
+__label__iot_cleaning 请 启动 吸尘器
+__label__iot_cleaning 现在 启动 扫地 机器人
+__label__audio_volume_mute 现在 静音 所有 响应
+__label__audio_volume_mute 请 不要 说话
+__label__news_query 新 供应商 那边 有 任何 进展 吗
+__label__news_query 空格 有 什么 新奇 之 处
+__label__play_music 播放 王菲
+__label__weather_query 北京 天气预报 啥 情况 啊
+__label__weather_query 下周 下雪 吗
+__label__news_query 西雅图市 议会 对 洪涝灾害 采取 了 什么 措施
+__label__news_query 从 新闻联播 获取 新闻
+__label__alarm_query 早晨 六点 到 九点 之间 设 了 几个 闹钟 啊
+__label__play_music 打开 播放列表
+__label__takeaway_order 确认 订单
+__label__iot_coffee 给 我 做 杯 咖啡
+__label__play_music 我 想 听 摇滚音乐
+__label__play_music 好 的 谷歌 播放 摇滚音乐
+__label__iot_hue_lightoff 关闭 电流
+__label__alarm_set 设置 一个 五点 半 的 闹钟
+__label__takeaway_query 我能 从 这 餐厅 点 外卖 吗
+__label__takeaway_query 我 喜欢 的 餐厅 送 外卖 吗
+__label__takeaway_query 他们 提供 外卖 吗
+__label__iot_coffee 启动 咖啡机
+__label__news_query 时政 上 有 什么 新闻
+__label__datetime_query 给 我 看 时间
+__label__play_music 播放 爵士乐 风格 的 音乐
+__label__datetime_query 下 星期六 是 几号
+__label__news_query 洋基队 昨晚 赢 了 吗
+__label__audio_volume_mute 使 音箱 静音
+__label__iot_hue_lightup 把 客厅 的 灯 点亮
+__label__iot_coffee 泡些 咖啡
+__label__iot_hue_lightchange 将 灯光 颜色 从 蓝色 变为 白色
+__label__iot_hue_lightchange 把 房屋里 的 灯光 变成 红色
+__label__datetime_query 四月 十六日 是 周几
+__label__iot_cleaning 请 吸尘 一 小时
+__label__datetime_query 告诉 我 今天 的 日期
+__label__iot_hue_lightchange 把 客厅 的 灯光 设置 成 红色
+__label__takeaway_query 餐厅 的 外 送 怎么样 了
+__label__music_query 听 这 首歌
+__label__takeaway_query 三千 浦有 外卖 吗
+__label__iot_hue_lightchange 将 灯 的 颜色 更 改为 蓝色
+__label__alarm_query 告诉 我 有 哪些 闹钟
+__label__alarm_remove 移除 我设 的 所有 闹钟
+__label__news_query 请 把 晨间 新闻 那篇 关于 养狗 的 文章 调 出来
+__label__weather_query 这儿 的 天气 怎么样
+__label__takeaway_order 外卖 一份 蛋卷
+__label__news_query 抖音 上 有 呼市 新闻 的 新 视频 吗
+__label__play_music 下面 播放 流星
+__label__play_music 播放 我 的 乡村音乐 播放列表
+__label__play_music 播放 我 的 第二个 歌单
+__label__datetime_query 今天 是 几号
+__label__iot_wemo_off alexa   关掉 主卧室 的 风扇
+__label__music_likeness alexa   请 将 当前 的 歌 保存 到 收藏夹
+__label__music_likeness 我 爱嘻哈 音乐
+__label__play_music 请 播放 我 最 喜欢 的 林俊杰 的 歌曲
+__label__iot_coffee 请 开始 煮 咖啡
+__label__iot_hue_lightdim 调暗 灯
+__label__iot_hue_lightdim 夜间 模式
+__label__news_query 最新 科技 新闻
+__label__news_query 最近 的 科技 头条
+__label__play_music 播放 下 一首歌
+__label__music_query 这 首歌 是 哪一年 创作 的
+__label__takeaway_query 找到 我 的 食物
+__label__weather_query 杭州 的 下雪 预测
+__label__news_query 热门 新闻 话题
+__label__alarm_query 下 一个 闹铃
+__label__takeaway_order 我 想 特别 想 吃 中国 食物 能 帮 我 点份 外卖 吗
+__label__news_query 今天 的 政治 有 什么 新 消息 你 能 过滤 掉 特朗普 的 新闻 吗
+__label__takeaway_order 我 现在 就 需要 两个 比萨
+__label__play_music 播放 一首歌
+__label__iot_hue_lightoff 关灯
+__label__weather_query 天气晴朗 吗 南方 的 温度 是 多少
+__label__play_music 给 我 播放 点 音乐
+__label__takeaway_order 附近 有 什么 地方 我 可以 点 外卖
+__label__audio_volume_down 请 调低 音量
+__label__alarm_query 我 的 起床 闹钟 设置 的 是 几点钟
+__label__alarm_query 明天 早上 我 有 任何 闹钟 吗
+__label__alarm_remove 移除 早先 的 闹钟
+__label__play_music 播放 古典 室内 音乐 列表
+__label__play_music 接下来
+__label__music_query 这个 乐队 的 主唱 叫 什么 名字
+__label__iot_wemo_off 开关机 测试
+__label__play_music siri   播放 我 的 流行音乐 播放列表
+__label__news_query 关于 该 话题 有 任何 新 消息 就 告诉 我
+__label__music_likeness 你 应该 知道 我 喜欢 爵士乐
+__label__music_likeness 请 检查 我 的 播放列表
+__label__alarm_set 你 可以 定个 十点 三十分 的 闹钟 吗
+__label__alarm_remove 关闭 明天 的 闹钟
+__label__datetime_query 现在 中部 时间 是 几点
+__label__alarm_remove 移除 设好 的 明天 的 闹钟
+__label__iot_hue_lightdim 欧丽 请调 暗灯
+__label__weather_query 明天 广州 下雨 吗
+__label__datetime_query 广西 现在 几点 了
+__label__datetime_convert 中国 时区 和 太平洋 时 区 相差 几个 小时
+__label__takeaway_query 附近 的 中餐馆 送 外卖 吗
+__label__weather_query 上海 的 天气 怎么样
+__label__weather_query 好 的 百度 一下 天气
+__label__iot_hue_lightdim 调低 灯光
+__label__iot_wemo_on 请 开启 我 的 小米 智能 插座
+__label__weather_query 下周 天气 怎么样 啊
+__label__music_query 如何 重播 这 首歌曲
+__label__music_query 这是 什么 音乐
+__label__iot_hue_lightup 请 增加 灯光
+__label__play_music 播放 浪漫 的 播放列表
+__label__datetime_query 这个 月 二十二日 是 周几
+__label__audio_volume_mute 去 睡觉
+__label__alarm_set 我 想要 设置 一个 明天 上午 七点 起床 的 闹钟
+__label__iot_hue_lighton 请 开启 所有 的 户外 灯
+__label__audio_volume_up 请 增加 音量
+__label__news_query 获取 政府 停摆 的 最新消息
+__label__play_music 播放 蔡健雅 的 音乐
+__label__general_quirky 夜间
+__label__takeaway_order 给 我点 快餐 食物
+__label__play_music 播放 一些 浪漫 的 音乐
+__label__weather_query 礼拜五 去 沙滩 是 个 好 天气 吗
+__label__play_music 播放 林俊杰 的 第四张 专辑
+__label__iot_coffee 请 给 我 泡杯 咖啡
+__label__weather_query 这周 哪天会 是 下雨 的
+__label__weather_query 这 周 天气 咋样
+__label__alarm_set 把 闹钟 定 在 下午 一点
+__label__news_query 有什麼 有关 美国 大选 的 最新消息
+__label__iot_coffee 请 为 我 泡杯 咖啡
+__label__weather_query 今天 是 晴天 吗
+__label__weather_query 上海 现在 的 天气 如何
+__label__play_music 我 想 听 我 的 播放列表 你 可以 现在 播放 吗
+__label__play_music olly   打开 林俊杰 的 背对背 拥抱
+__label__weather_query 广州 有 多 热 啊
+__label__datetime_query 成都 现在 几点
+__label__datetime_query 广州 现在 几点
+__label__weather_query 星期天 穿 裙子 会 不会 太冷 了
+__label__play_music 我能 听 一些 邓紫棋 的 歌 吗
+__label__iot_hue_lightdim 太亮 了
+__label__takeaway_order 从 兰州 拉 面点 两个 大份 炒面 加 鸡肉
+__label__datetime_query 今天
+__label__play_music 从 第一首歌 播放 我 当前 的 播放列表
+__label__play_music 播放 我 最 喜爱 的 乡村 歌曲
+__label__datetime_query 津巴布韦 现在 几点
+__label__datetime_query olly   现在 津巴布韦 几点钟 了
+__label__play_music 请 播放 邓紫棋 的 泡沫
+__label__datetime_query 告诉 我 现在 是 几点
+__label__news_query 关于 短跑 的 最新消息 是 什么
+__label__play_music 这个 之后 为 我 播放 凉凉
+__label__play_music 我 想 听 一些 爵士乐
+__label__weather_query 查 一下 天津 一周 的 天气
+__label__iot_wemo_off 请 关闭 智能 插座
+__label__iot_wemo_on 打开 小米 智能 插座
+__label__audio_volume_down 把 音箱 调低
+__label__iot_cleaning 启动 扫地 机器人
+__label__takeaway_order 帮 我点 一些 中餐
+__label__music_query 是 谁 制作 了 收音机 里 的 这 首歌
+__label__news_query 现在 正在 进行 的 两场 伦敦大学 学院 比赛 的 比分 是 多少
+__label__news_query 新浪 四川 新闻 头条 是 什么
+__label__weather_query 这 周 接下来 的 几天 天气 怎么样 啊
+__label__weather_query 很快 暖和 的 天气 就 该 到 了 吧
+__label__weather_query 现在 天气 怎么样
+__label__iot_hue_lightup 请 增加 光
+__label__weather_query 下周 下雪 吗
+__label__alarm_remove 删除 周三 晚上 的 闹钟
+__label__weather_query 截至 今天 四川省 下 了 多少 雪 啊
+__label__music_likeness 给 我 保存 这个 类型 的 歌曲
+__label__music_likeness 我 想 让 你 记住 我 喜欢 这 首歌
+__label__play_music 在 这 首歌 之后 播放 突然 好想你
+__label__alarm_set 三 小时 后 提醒 我
+__label__play_music 硬地 音乐
+__label__weather_query 现在 天气 怎么样 啊
+__label__news_query 告诉 我 欧洲 政治 发生 了 什么
+__label__news_query 我 想 知道 现在 英超 联赛 的 榜首 是 谁
+__label__news_query alexa   我 所在 地区 有 什么 新闻
+__label__play_music 是 时候 听 反光镜 的 歌 了
+__label__music_settings 打开 重复
+__label__iot_cleaning 开始 清洁
+__label__datetime_query 下周 哪天 去 吃 披萨 最好
+__label__weather_query 今天天气 该是 啥样 啊
+__label__datetime_query 上海 现在 几点 了
+__label__alarm_set 定 一个 早上 八点 的 闹钟
+__label__play_music 添加 很多 后 海大 鲨鱼 和 苏打 绿到 播放列表
+__label__play_music 你 能 为 我 播放 一些 舞曲 吗
+__label__play_music 从 播放列表 放歌
+__label__alarm_query 现在 我 都 定 了 哪些 闹铃 啊
+__label__weather_query 今天 天津 温度 多少 啊
+__label__play_music 加载   spotify
+__label__general_joke 嗨 小度 给 我 讲 一个 笑话
+__label__takeaway_order 我 今晚 想 订些 中国 菜 送来 给 我
+__label__iot_hue_lightchange 调整 当前 的 灯光 设置
+__label__music_query 我 以前 听过 这个 旋律 哪 首歌 抄袭 了 这个 旋律 听 起来 完全 一样
+__label__alarm_remove 移除 四点 整 的 闹钟
+__label__weather_query 明天 有 超过 四十度 吗
+__label__play_music 播放 我 去年 最 喜欢 的 歌
+__label__audio_volume_mute 请 不要 回应
+__label__iot_hue_lightoff 你 能 关掉 我 的 台灯 吗
+__label__iot_hue_lightoff 台灯 一关
+__label__iot_hue_lightup 打开 灯
+__label__weather_query 今天 上班 我 需要 带 把 伞 吗
+__label__weather_query 今天 出去 购物 我 可以 穿 短裤 吗
+__label__play_music 播放 五月天 的 音乐
+__label__play_music 播放 杰斯 的 最新 专辑
+__label__alarm_set 定个 闹钟 明天 早上 十点 整
+__label__alarm_set 十点 叫 我 起床
+__label__play_music 播放 曾沛慈 一个 人 想着 一个 人
+__label__takeaway_order 给 我 看看 附近 的 外 送
+__label__takeaway_order 打开 互联网
+__label__play_music 让 我 听 一些 音乐
+__label__play_music 我 想 听 好听 的 音乐
+__label__iot_hue_lightup 调亮 灯光
+__label__audio_volume_up 把 音量 调 到 最大 设置
+__label__audio_volume_mute 音频 静音
+__label__audio_volume_mute 关闭 音响
+__label__weather_query 这 周 每天 都 会 下雨 吗
+__label__iot_hue_lightdim 调暗 室内 的 所有 灯
+__label__weather_query 今天 我能 穿 短裤 出门 吗
+__label__weather_query 今天 几层 衣服
+__label__iot_hue_lightchange 把 灯 调成 随机 颜色
+__label__news_query 给 我 最新 的 央广网 时报
+__label__audio_volume_mute 静音 设置
+__label__weather_query 这周 是 要 下雪 了 吗
+__label__iot_hue_lightchange 改变 灯光 的 颜色
+__label__datetime_query 四月 二十二号 是 星期 几
+__label__weather_query 还要 多久 才 会 下雨 啊
+__label__weather_query 你 给 我 的 天气预报 是 错误 的 我 想 知道 现在 的 温度
+__label__takeaway_order 点 一个 双层 培根 芝士 汉堡 里面 有 培根 和 美国 奶酪
+__label__play_music 播放 碎 南瓜 乐园 的 音乐
+__label__news_query 更新 四月 这个 长颈鹿 的 信息
+__label__weather_query 这周 我 这 天气 怎么样 啊
+__label__iot_hue_lightup 请 把 这儿 的 灯 打开
+__label__audio_volume_up 请调 高 音箱 音量
+__label__datetime_query 莫斯科 时间 一样 吗
+__label__takeaway_query 告诉 我 有 哪些 餐饮 套餐 可用
+__label__weather_query 天空 阴沉沉 的 吗
+__label__takeaway_query 查看 必胜客 有没有 在 送 我 的 订单 了
+__label__iot_wemo_on 启动 新 的 智能 插座
+__label__iot_hue_lightdim 将 灯光 调暗 至 二级
+__label__weather_query 这 周 天气预报 啥 情况 啊
+__label__iot_hue_lightoff 请 把 卧室 的 灯 关闭
+__label__takeaway_query 萨莉亚 意式 餐厅 什么 时候 到
+__label__music_query 这个 音乐 团体 的 名字 是 什么
+__label__news_query 特朗普 下一场 新闻 发布会
+__label__qa_stock 谷歌 目前 的 股价 是 多少
+__label__weather_query 我 那场 高尔夫 比赛 会 因为 下雨 泡汤 吗
+__label__weather_query 上海 天气 怎么样 啊
+__label__alarm_set 设个 清晨 五点 的 闹钟
+__label__alarm_set 设个 晚上 十点 的 闹钟
+__label__weather_query 明天 天气 咋样 啊
+__label__weather_query 明天 天好 吗
+__label__weather_query 今天 我 这里 预报 啥 情况 啊
+__label__alarm_query 列出 我 有 哪些 闹钟
+__label__qa_stock 开启 股市 所有 新闻 的 通知
+__label__qa_stock 通知 我 股市 的 最新消息
+__label__play_music 打开 我 的 音乐
+__label__news_query 告诉 我 最新消息 是 什么
+__label__general_joke 我 想要 一个 书呆子 笑话
+__label__weather_query 今天 我 该 穿 短裤 吗
+__label__general_joke 你 可以 告诉 我 一个 精彩 的 笑话 吗
+__label__music_settings 重播 最后 一首歌
+__label__datetime_query 今年 六月 二十七 号 是 星期 几
+__label__weather_query 我 需要 穿 暖和 的 衣服 吗
+__label__datetime_query 今天天气
+__label__iot_hue_lightoff 关掉 卧室 的 灯
+__label__datetime_convert 转换 时 区
+__label__datetime_query 另 一个 城市 现在 几点
+__label__qa_factoid 什么 时候 日落
+__label__weather_query 十天 预报
+__label__iot_hue_lightchange 灯能 调成 绿色 吗
+__label__news_query 给 我 看 纽约 新闻 的 新闻
+__label__news_query 有 什么 新闻 吗
+__label__play_music 播放 飞轮海 的 只 对 你 有 感觉
+__label__alarm_set 定个 五分钟 后 的 闹钟
+__label__alarm_set 设个 闹铃
+__label__takeaway_order 打电话 给华馆 帮 我点 芙蓉 蛋
+__label__weather_query 目前 的 温度 多少度 啊
+__label__play_music 放 一些 音乐
+__label__music_query 你 知道 这 歌词 吗
+__label__music_query 谁 唱 这 首歌
+__label__general_joke 打开 一些 冷笑 话
+__label__general_joke 讲个 笑话 给 我 听 一下
+__label__iot_hue_lightoff 切换 灯 关闭
+__label__news_query 告诉 我 台风 的 最新消息
+__label__qa_stock 给我发 今天 股市 的 更新
+__label__news_query 昨晚 的 双色球 中奖号码 是 多少
+__label__alarm_remove 移除 老公 的 睡觉 闹钟
+__label__audio_volume_down 请 小点声 跟 我 说话
+__label__datetime_query 东部 时 区 现在 几点
+__label__news_query 请 告诉 我 关于 香港立法会 换届选举 情况 的 最新消息
+__label__music_likeness 我 喜欢 节奏 蓝调
+__label__iot_hue_lightchange 显示 红色 给 我们 看
+__label__datetime_query 四月 二十三日 是 周六 吗
+__label__datetime_query 今天 是 第 几周
+__label__weather_query 家乡 的 天气 怎么样
+__label__play_music 从 这个 播放列表 播放 音乐
+__label__news_query 当地 有 新 消息 时 告诉 我 、
+__label__iot_hue_lightchange 改变 色度
+__label__iot_hue_lightchange 用 深色 代替 浅色
+__label__iot_wemo_on 打开 维莫
+__label__alarm_set 设个 上午 六点 的 闹钟
+__label__iot_hue_lighton 这里 暗
+__label__alarm_remove olly   关闭 闹钟
+__label__alarm_remove siri   关掉 瑜伽 闹钟
+__label__audio_volume_up 奥利 把 音量 开大点
+__label__music_settings 谷歌 随机 播放 歌单
+__label__play_music 接下来 吻别
+__label__weather_query 今后 天气 怎么样
+__label__news_query 关岛 的 处方药 滥用 不断 增多
+__label__weather_query 可以 告诉 我 这周 的 天气 预测 吗
+__label__iot_coffee 你 可以 让 咖啡机 启动 吗
+__label__iot_hue_lightoff 这里 太亮 了 你 能 把 灯 关掉 吗
+__label__weather_query 这 周 天气 怎么样 啊
+__label__music_likeness 请 把 这 首歌曲 加到 我 的 最爱里
+__label__play_music 请 再次 播放 这歌
+__label__weather_query 周四 还 刮风 吗
+__label__general_joke 讲个 笑话
+__label__news_query olly   告诉 我 习近平 的 消息
+__label__news_query 有 关于 人大 改选 的 最新消息 吗
+__label__weather_query 今天 我 的 可能
+__label__iot_hue_lightoff 小王 关掉 了 画室 的 灯
+__label__news_query 给 我 看 最新 的 新闻
+__label__news_query 全红婵 昨天 得 了 多少 分
+__label__play_music 播放 我 的 健身房 播放列表
+__label__iot_hue_lightoff 请 关掉 浴室 里 的 灯
+__label__weather_query olly   我 需要 戴 手套 吗 今天
+__label__weather_query 我 出门 有 必要 拿 伞 吗
+__label__play_music 开始 播放 最近 添加 的 歌曲 列表
+__label__news_query 显示 中国 新闻网 的 时事新闻
+__label__news_query 看 中央电视台 直播
+__label__weather_query 外面 天气 怎么样 啊
+__label__weather_query 今天 四川 成都 天气 怎么样 啊
+__label__alarm_query 给 我 看看 你 设好 的 那些 闹钟
+__label__news_query 你 能 告诉 我 韦恩县 治安 官 的 当地 消息 吗
+__label__play_music 从 我 的 播放列表 播放
+__label__datetime_convert 切换 到 东部 时 区
+__label__datetime_query 下周 二十四 号 是 什么 时候
+__label__music_query 咪咕 音乐 上 有 什么 新 歌
+__label__weather_query 给 我查 一下 二零一 七年 三月 二十七 号 的 天气
+__label__news_query 爱尔兰 有 什么 新闻
+__label__music_query 这 首歌曲 在 放 什么
+__label__audio_volume_up 调 高 音量
+__label__iot_cleaning 让 扫地 机器人 打扫 厨房
+__label__music_query 请 给 我 张靓颖 歌曲 的 细节
+__label__alarm_remove 去除 下午 五点 的 闹钟
+__label__play_music 印度 民歌
+__label__weather_query 上午 十点 以后 我 得 穿 外套 不了
+__label__news_query 我 想 阅读 中国 新闻网
+__label__weather_query 今夜 我 该 带 着 手套 吗
+__label__weather_query 今天 我 需要 穿 外套 吗
+__label__iot_hue_lightup olly   点亮 灯光
+__label__iot_hue_lightchange 改变 灯光 的 颜色
+__label__iot_hue_lightchange olly   激活 不同 灯 的 颜色
+__label__iot_hue_lightchange 激活 不同 的 灯光 颜色
+__label__news_query 关于 特朗普 总统 的 最新 民意调查 是 什么
+__label__music_likeness 将 这首 音乐 收 进 收藏夹
+__label__iot_hue_lightoff 关掉 房间 的 灯
+__label__datetime_query 五月 二十二号 是 周几
+__label__audio_volume_mute 设定 静音 直到 我 说 别的
+__label__music_settings 请 重播 当前 正在 播放 的 歌曲
+__label__alarm_query 告诉 我 每天 早上 闹钟 几点 响
+__label__general_quirky 谢谢 盟友 的 照片
+__label__play_music 播放 一些 老派 的 说唱
+__label__news_query 给 我 读 今天 的 新闻
+__label__news_query 杨幂 和 刘恺威 复合 了 吗
+__label__alarm_set 定个 五月 二十五 下午 五点 的 闹钟
+__label__play_music 请 打开 我 的 音乐
+__label__play_music 助手 随机 播放 整个 曲库
+__label__takeaway_order 最近 的 南京 塔 可 墨西哥 餐厅
+__label__play_music 随机 播放 布鲁斯 音乐 歌单
+__label__alarm_query 报告 闹钟 设置
+__label__weather_query 现在 的 气温
+__label__play_music 随机 播放 所有 艺人 刘若英 的 歌曲
+__label__weather_query 这个 周末 我 需要 涂 防晒霜 吗
+__label__weather_query 商店 除霜 盐
+__label__iot_wemo_on 打开 小米 智能 插座
+__label__iot_wemo_on 小米 智能 插座
+__label__datetime_query 就 告诉 我 今天 日期
+__label__weather_query 墨迹 天气 每秒 实时 播报 或者 天气 通 预报 我 的
+__label__alarm_query 点击 开始 然后 选择 设置
+__label__datetime_query 日本 东京 现在 几点 了
+__label__play_music 播放 派对 歌曲
+__label__play_music 王心凌
+__label__iot_cleaning 开始 打扫 房子
+__label__weather_query 我 应该 穿 外套 上班 吗
+__label__audio_volume_up 你 能 大声 点 吗
+__label__iot_hue_lightup 提亮 房间 里 的 每 一盏灯
+__label__play_music 请 再次 为 我 播放 李宇春 的 歌
+__label__play_music 专业 录音机 请 帮 我 把 系统 页面 设 为 储存 歌曲 的 地方
+__label__weather_query 气候
+__label__datetime_query 明年 我 的 生日 是 周几
+__label__datetime_query 十二号 是 星期 几
+__label__audio_volume_up 打开 音频
+__label__play_music 艺术家
+__label__takeaway_query 皇家 餐厅 送 外卖 吗
+__label__weather_query 日落 之后 会 不会 有雾
+__label__weather_query 外面 很 冷
+__label__datetime_query 闹钟
+__label__alarm_set 定个 今天 晚上 五点 整 的 闹钟 标题 为 出租车
+__label__weather_query 家乡 天气
+__label__play_music 同样 专辑 这个 歌曲 第四 首
+__label__play_music alexa   放 一些 经典 摇滚
+__label__iot_cleaning 激活 扫地 机器人
+__label__weather_query 今天 算是 上海 最热 的 一天 了 吗
+__label__alarm_query 告诉 我 闹钟 设置
+__label__general_quirky 特定 词 的 意思
+__label__play_music 听 音乐
+__label__weather_query 我 需要 一件 晚装 雨衣
+__label__news_query 国际贸易 和 商业 市场
+__label__audio_volume_mute 你 能 静音 一会 吗
+__label__takeaway_order 我想点 一些 菜
+__label__alarm_query 你 给 我定 了 几点 的 闹钟 啊
+__label__iot_coffee 我 现在 想 喝点 咖啡
+__label__iot_coffee 准备 我 早晨 的 咖啡
+__label__iot_coffee 现在 是 咖啡 时间
+__label__takeaway_query 我 的 必胜客 订单 准备 好了吗
+__label__takeaway_query 我 什么 时候 可以 去取 我 的 中餐
+__label__alarm_set 开启 闹钟
+__label__play_music 下 一首 播放 所选 的 歌曲
+__label__iot_hue_lightup 增加 亮度 光看 在 这里
+__label__takeaway_query 我 的 订单 可以 去取 了 吗
+__label__alarm_set 闹钟
+__label__weather_query 我 今天下午 该 带 把 伞 吗
+__label__play_music 播放 飞轮海 的 歌曲
+__label__weather_query 喂 北京 朝阳区 今天 会 下雨 吗
+__label__weather_query 嘿   olly   北京 朝阳区 天气 咋样 啊
+__label__play_music 播放 林俊杰 的 可惜 没 如果
+__label__takeaway_order 在 中国 食品店 点 两个 鸡翅 和 炸薯条
+__label__takeaway_order 点 一个 加 了 额外 奶酪 的 比萨
+__label__datetime_query 嘿 奥利 告诉 我 现在 佛罗里达州 奥兰多 几点
+__label__play_music 从 我 的 最近 播放列表 播放 任何 内容
+__label__play_music 奥利 从 我 的 最近 播放列表 播放 任何 音乐
+__label__music_query 给 我 这 首歌 的 信息
+__label__general_joke 对 我 来说 挺 有趣
+__label__weather_query olly   我 应该 戴 手套 吗
+__label__weather_query 告诉 我 接下来 这个 月 的 天气
+__label__iot_cleaning 开启 吸尘器
+__label__weather_query 今天 我 该 穿 好几件 吗
+__label__weather_query 确认 这周 的 天气报告
+__label__weather_query 给 我 看 一周 的 预报
+__label__takeaway_query 这里 我能 点外 送 吗
+__label__general_quirky 今天 地铁 超级 忙
+__label__general_quirky 告诉 我 今天 的 安排
+__label__general_quirky 小度 你 有没有 发现 你 的 世界 有点 奇怪
+__label__general_quirky 你 想 听听 今天 发生 了 什么 吗
+__label__general_quirky 你 是 怎么 认识 我 的
+__label__general_quirky 如果 能 在 市中心 新开 的 餐馆 吃 晚餐 就 太好了
+__label__general_quirky olly   还好 吗
+__label__general_quirky 小度 我 今天 得奖 了
+__label__general_quirky 我 今天 有 很多 会议
+__label__general_quirky 你 从 哪里 来
+__label__general_quirky 今天 晴天
+__label__general_quirky 嗨 小度 我 中 了 一百万 人民币 的 乐透 头奖
+__label__news_query 今天 告诉 我 重要 的 消息
+__label__general_quirky 今天 如何
+__label__general_quirky 醒醒 有 鸡蛋 和 面包
+__label__general_quirky 发生 了 什么 事
+__label__news_query 今天 有 任何 有趣 的 新闻 吗
+__label__general_quirky 周六 我 收到 邀请 去 酒吧
+__label__general_quirky 告诉 我 哪种 酒精 饮料 比较 好
+__label__general_quirky 告诉 我 一些 关于 美国 的 事情
+__label__general_quirky 运动
+__label__general_quirky 嗨 有 什么 好看 的 电影 即将 上映
+__label__general_quirky 你 那 我 的 个人 数据 去 做 什么
+__label__general_quirky 当 我 想 让 他 记笔记 时
+__label__calendar_query 我 的 每周 计划
+__label__general_quirky 琐事
+__label__general_quirky 维基百科 主题
+__label__general_quirky 怎么 了
+__label__general_quirky 不太 敏感 的 狗 的 种类
+__label__general_quirky 奥利 我 今天 出事 了
+__label__general_quirky 我 今天 去 了 沃尔玛
+__label__general_joke 讽刺 的 笑话
+__label__news_query 娱乐 新闻
+__label__general_quirky 移动
+__label__general_quirky 我 被 雨淋 湿 了
+__label__general_quirky 时尚
+__label__calendar_query 规划
+__label__general_quirky 给 我 答复
+__label__calendar_set 今天 应该 被 标记 为 我 的 作弊 日
+__label__general_quirky 今天 是 累人 的 一天
+__label__general_quirky 你 喜欢 我 的 女朋友 吗
+__label__general_quirky 告诉 我 关于 雷哈娜 的 事
+__label__recommendation_events 北京 有 什么 新鲜事 吗
+__label__general_quirky 这时候 我 做 了 什么
+__label__general_quirky 你 今天 过得 怎么样
+__label__general_quirky 宇宙
+__label__general_quirky 公寓 里 的 温度 是 多少
+__label__general_joke 笑话
+__label__cooking_query 烹饪
+__label__general_quirky 预测 利率
+__label__general_quirky 汽车
+__label__general_quirky 非常 忙碌
+__label__general_quirky 最近 关于 谷歌 搜索引擎 优化 的 建议
+__label__general_joke 本 日 笑话
+__label__general_quirky 食品 杂货店 需要 的 食材
+__label__general_quirky 怎么样
+__label__general_quirky 如果 你 可以 说 三件 事 你 会 说 什么
+__label__general_quirky 太空 研究
+__label__general_quirky 豆瓣
+__label__general_quirky 明星 八卦
+__label__calendar_query 我 本周 剩余 的 时间 日程安排 是 什么
+__label__calendar_remove 把 我 的 一天 从 会议 中 清除 出去
+__label__calendar_set 请 在 我 的 日程 上 把 每日 的 单人 脱口秀 安排 到 上午 十点
+__label__calendar_query 我下 一次 会议 是 什么 时候
+__label__calendar_remove 取消 我 每天 下午 五点 的 电话
+__label__calendar_set 预定 一个 和 切尔西 的 会议
+__label__general_quirky 它 是 什么 时候
+__label__calendar_query 我 今天 有事吗
+__label__calendar_query 我 明天 有 什么 约定 吗
+__label__calendar_query 告诉 我 我 的 事项
+__label__calendar_remove 去除 我 的 日历 上 的 所有 事项
+__label__calendar_set 提醒 我 摄政 公园 的 野餐
+__label__calendar_set 这个 周末 我 想 去 看 露天电影 提醒 我
+__label__calendar_query 你 有 加上 明天 晚上 九点 和 老王 的 会议 吗
+__label__calendar_remove 删除 接下来 五天 的 所有 事件
+__label__calendar_query 我 明天 下午 九点 有 会面
+__label__calendar_set 在 日历 中 与 以下 人员 设置 以下 事件
+__label__calendar_remove 你 能 删除 我 已经 去过 的 活动 吗
+__label__calendar_query 我 的 日历 中 是否 有 任何 即将 发生 的 事件
+__label__calendar_query 我 的 日历 上下 一个 预约 是 什么 时候
+__label__calendar_remove 取消 明天 下午 二点 的 生日 聚会
+__label__calendar_remove 你 能 从 我 的 日历 中 删除 所有 的 事项 吗
+__label__general_quirky 这 很 难 啃
+__label__calendar_set 我 每 一天 上午 九点 都 需要 一个 提醒
+__label__calendar_query 我 希望 今天 谁 来 参加 会议
+__label__calendar_set 在 每周 一把 周一 会议 放在 日历 中
+__label__calendar_set 通知 三月 六号 上午 十一点 有 一个 社团 会议
+__label__calendar_query 明天 晚上 有 什么 节目 吗
+__label__calendar_remove 删除 所有 的 事项 和 信息
+__label__calendar_remove 清除 所有 事项 和 日程
+__label__calendar_query 我 的 明天 的 事件 时间表 是 什么
+__label__calendar_set 提醒 我 明天 上午 十点 的 会议
+__label__calendar_query 这周 我 有 多少 次 会议
+__label__calendar_remove 清空 日程
+__label__calendar_set 请 在 我 明天 早上 会 面前 一 小时 提醒 我
+__label__calendar_query 明天 下午 我 的 日程 是 什么
+__label__calendar_query 接下来 的 活动
+__label__calendar_query 最新 的 活动
+__label__calendar_set 明天 给 老王 安排 一个 预约
+__label__calendar_query 我 的 日历 上 有 什么 即将 发生 的 事情 吗
+__label__calendar_set 为 下个月 的 假期 设个 提醒
+__label__calendar_remove 清空 这个 月 的 日历
+__label__alarm_set 设个 俩 小时 后 的 闹钟
+__label__calendar_query 我 这个 星期六 两点 到 下午 四点 有 什么 事情 吗
+__label__calendar_remove 请 删除 我 当天 剩余时间 所有 的 日历 活动
+__label__calendar_query 今天 我 的 日历 有 哪些 事件
+__label__calendar_query 我 的 日程表 上 的 活动 是 什么
+__label__calendar_query 我 今天 有 任何 提醒 吗
+__label__calendar_remove 移除 今天 的 晚上 会议
+__label__calendar_set 让 我 知道 下 十二日 上午 预约 医生
+__label__calendar_set 做 一个 周六 早晨 与 李雷 和 李 明早 午餐 的 日历 条目
+__label__calendar_set 记得 我 今天下午 六点 去 和 韩梅梅 会面
+__label__calendar_query 下周 和 我 的 老板 的 会议 在 什么 时候
+__label__calendar_remove 在 我 的 日历 上 删除 十号 的 婚礼
+__label__calendar_query 下 一个 活动 要 做 什么
+__label__calendar_set 提醒 我 明天 有 一个 预约
+__label__calendar_set 下午 四点
+__label__calendar_set 每周 四 下午 两点 我会 去 看 我 的 治疗师
+__label__calendar_remove 取消
+__label__calendar_set 我 想要 在 星期六 下午 十点 去 参加 小丽 的 生日
+__label__calendar_query 下星期 我要 做 什么
+__label__calendar_query 告诉 我 我 朋友家 明 的 公司 的 开业 日期
+__label__calendar_set 请 在 我 四月 二日 去 古巴 度假 的 日历 上 做 个 标记
+__label__calendar_set 提醒 晚上 八点 吃 我 的 药
+__label__calendar_query 比赛 什么 时候 开始
+__label__calendar_remove 我 明天 有 什么 安排 需要 取消
+__label__calendar_set 给 明天 下午 三点 的 会议 设置 一个 提醒
+__label__calendar_set 提醒 我 下个星期 一 去取 衣服
+__label__calendar_set 设定 一个 明天 得 去 看 我 爸爸 的 提醒
+__label__calendar_set 在 今天下午 的 日历 上 增加 一个 循环 活动
+__label__calendar_query 我 今天 的 第一个 预约 是 哪一天
+__label__calendar_query 我 的 今天 的 日程安排 是 什么
+__label__calendar_set 提醒 我 明天 和 乔 一起 吃 午餐
+__label__calendar_set 你 能 把 这次 活动 的 地点 定 在 我 的 姐妹 的 房子 吗
+__label__calendar_remove 一定 要 去除 日历 上 的 下 一个 事项
+__label__calendar_set 在 我 的 日历 上 加上 韩梅梅 七月 十二日 的 生日
+__label__calendar_set 在 日历 上 注明 我们 将 在 八月 九日 晚上 八点 与 弗兰克 共 进晚餐
+__label__calendar_query 三月 我 的 日历 上 有 哪些 事件
+__label__calendar_query 婚礼 安排 在 什么 时候
+__label__calendar_query 三月 有 什么 会议
+__label__calendar_query 请 查看 二零一 七年 三月 二十二日 的 第三次 活动
+__label__calendar_set 明天 加上 和 她 过 情人节
+__label__calendar_set 下个月 和 妈妈 一起 过生日
+__label__calendar_set 和 朋友 开个 会议
+__label__calendar_set 开会 前 参加 一个 派对
+__label__calendar_set 请 创建 一个 只有 这些 人 的 活动
+__label__calendar_set 记住 中午 十二点 以前 到 机场 接 我 我 下午 三点 有个 会议
+__label__calendar_set 安排 三月 十日 与 杰克 会面
+__label__calendar_set 记住 明天 晚上 七点 之前 安排 我 和 球员 们 会议
+__label__calendar_query 我 的 当前 的 提醒 是 什么
+__label__calendar_set 提醒 我 明天 的 面试
+__label__calendar_query 即将 举行 的 活动
+__label__calendar_set 将 事件 设置 为 定期
+__label__calendar_set 安排 在 星期二 开会
+__label__calendar_query 我们 在 昨天 举行 的 会议 上 得到 了 什么
+__label__calendar_set 请 加上 我 的 下次 的 会议
+__label__calendar_set 为 明天 的 这个 设个 提醒
+__label__calendar_set 致电   a   参加 会议
+__label__calendar_query 账单 周期 是 什么 时候
+__label__calendar_set 为 曲奇 设置 五分钟 的 计时器
+__label__calendar_query 周五 的 足球比赛 什么 时候 开始
+__label__calendar_remove 请 删除 我 的 所有 的 日历 事项
+__label__calendar_set 提醒 我 明天 早上 制作 一个 披萨
+__label__calendar_set 每周五 中午 十二点 祷告
+__label__calendar_query 我 有待 办 的 提醒 吗
+__label__calendar_set 别忘了 提醒 我 四月 二十日 是 我 弟弟 的 生日
+__label__calendar_set 我 想 增加 一个 和 麦克 吉姆 和 鲍勃 午餐会 面
+__label__calendar_set 提醒 我 今天上午 四点 即将 举行 的 会议
+__label__calendar_set 列出 即将 举行 的 会议
+__label__calendar_remove 寻找 并 删除 我 周末 所有 和 伊万 帕克 的 活动
+__label__calendar_set 把 这个 事件 记在 我 的 日历 上
+__label__calendar_query 我 有 任何 未 完成 的 提醒
+__label__calendar_set 一定 要 提醒 我 这件 事
+__label__calendar_set 请 把 明天 早上 十点 的 会议 设 为 一个 提醒
+__label__calendar_query 请 告诉 我 待处理 的 提醒
+__label__calendar_query 告诉 我 本周 的 会议
+__label__calendar_set 我 周一 有个 生日 活动
+__label__calendar_set 我 十五日 要 乘飞机
+__label__calendar_set 设置 一个 晚上 的 活动
+__label__calendar_set 将 每年 六月 三日 设为 鲍勃 生日
+__label__calendar_set 每周五 提醒 我 去 商店
+__label__calendar_remove 从 我 星期六 的 日程 上 删除 去 杂货店 购物
+__label__calendar_remove 清除 我 的 日历 上 的 所有 信息
+__label__calendar_query 我 星期一 要 做 什么
+__label__calendar_set 在 我 的 日历 中 重复 一件 事件
+__label__calendar_remove 有 什么 办法 可以 让 我 清空 这个 月 的 日程表 吗
+__label__calendar_set 添加 我 的 练习 到 二月 四日 下午 两点 青城 公园
+__label__calendar_set 请 提醒 我 斯瓦特 什的 生日
+__label__calendar_query 今天 的 日程安排 看起来 怎么样
+__label__calendar_set 增加 一条 要 参加 的 注意
+__label__calendar_set 在 每天 早上 八点 给 我 的 工作 任务 设置 一个 重复 的 提醒
+__label__calendar_remove 清除 我 的 日程安排
+__label__calendar_query 我 今天上午 八点 到 下午 五点 有 什么 事要 做 吗
+__label__calendar_query 本周 有 哪些 提醒
+__label__calendar_set 加上 今晚 五点 的 乒乓球 训练
+__label__calendar_query 我 明天 早晨 忙 吗
+__label__calendar_query 谁 将 出席 这 周五 的 会议
+__label__news_query 二号 到 十五号 之间 发生 了 什么
+__label__calendar_query 告诉 我 从 今天 到 二十一 号 的 所有 事项
+__label__calendar_set 请 每 三十分钟 给 我 一次 选举 的 最新 情况
+__label__calendar_query 我 今天 有 预约 吗
+__label__calendar_remove 打开 日历 移除 所有 活动
+__label__calendar_set 提醒 我 我 的 星期五 的 清华大学 生物 考试
+__label__calendar_query 十一月 二十日 有 什么 事
+__label__calendar_query 下一场 王菲 的 演唱会 安排 得 怎样
+__label__calendar_query 关于 演出 有 什么 是 我 需要 知道 的 吗
+__label__recommendation_events 今晚 剧院 上演 的 是 谁
+__label__calendar_query 今天 有 设置 任何 提醒 吗
+__label__calendar_remove 请 移除 原定 在 三月 七日 的 家长会
+__label__calendar_query 在 我 的 日历 里 今天 我 有 会议 吗
+__label__calendar_set 请 设置 提醒 我 十分钟 后 上班
+__label__calendar_query 下星期 我 有 多少 个 会议
+__label__calendar_set 在 二月 十四日 在 餐馆 预订 晚餐
+__label__calendar_query 本 周末 有 什么 事
+__label__calendar_query 本周 是 收 垃圾 的 周 吗
+__label__calendar_query 今晚 的 晚宴 几点 开始
+__label__calendar_query 我 的 下 一个 提醒 是 什么 时候
+__label__calendar_query 告诉 我 所有 关于 三月 二十二日 的 锦标赛 的 细节
+__label__calendar_set 设置 一个 明天 中午 河北省 沧州市 的 午餐 日程
+__label__calendar_query 我 周五 有 约会 吗
+__label__calendar_set 设置 一个 下午 一点 去 美容师 那里 接 我 的 狗
+__label__calendar_set 我 什么 时候 开会
+__label__email_sendemail 天猫 精灵 给我发 电子邮件 重新安排 我 的 预约
+__label__calendar_set 天猫 精灵 设置 一个 每周五 重复 的 午餐 事件
+__label__calendar_set 会议 更新 我 的 日历 以 显示 会议
+__label__calendar_query 明天 火车 什么 时候 开
+__label__calendar_set 设定 下午 三点 去 接 李雷
+__label__calendar_remove 取消 我 十四号 的 会议
+__label__calendar_query 告诉 我 关于 星期二 晚上 音乐会 的 信息
+__label__calendar_set 我 需要 提醒 一下 星期二 下午 三点 有 一个 保罗 的 退休 提醒 的 会议
+__label__recommendation_events 那次 活动 发生 了 什么 事
+__label__calendar_query 今天上午 十点 到 十二点 之间 我 有 什么 事
+__label__calendar_query 我 和 约翰 晚上 会议 是 几点
+__label__alarm_set 设个 提醒 我 需要 每天 早上 五点 起床
+__label__calendar_query 更 多 关于 果戈里 大街 的 音乐会
+__label__calendar_set 天猫 精灵 今晚 提醒 我 明天 的 会议
+__label__calendar_set 周三 开会 通知
+__label__calendar_set 把 我 即将 到来 的 会议 加到 我 的 日程表 上
+__label__calendar_remove 请 完全 取消 我 的 日程安排
+__label__calendar_remove 请 删除 今晚 和 约翰 的 会议
+__label__calendar_set 设置 周三 下午 两点 的 提醒
+__label__calendar_query 苏珊 的 生日 是 三月 一日 是 真的 吗
+__label__calendar_query 你 有 把 明天 的 会议 加到 我 的 日历 中 吗
+__label__calendar_set 本周 每天 中午 增加 午餐 会议
+__label__calendar_set 设 一个 星期五 下午 三点 的 会议 提醒
+__label__calendar_remove 把 日历 上 的 每件 事情 都 删除
+__label__calendar_remove 嘿   siri   确保 明天 我 的 的 日程表 是 空白 的
+__label__calendar_set 两 小时 后 新 的 会议 通知
+__label__calendar_set 提醒 我 一下 日历
+__label__calendar_query 今天上午 有 预约 吗
+__label__calendar_query 本周 发薪 吗
+__label__calendar_remove 取消 我 的 所有 的 约会
+__label__calendar_query 我 设置 了 多少 提醒 啊
+__label__calendar_query 今天 早上 六点 四十五分 有 什么 消息
+__label__calendar_remove 在 我 的 日历 中 删除 下午 一点 的 活动
+__label__calendar_set 从 今天 开始 的 一周 五点 提醒 我 去 图书馆
+__label__calendar_set 设定 下 周六 五点 去 图书馆 的 提醒
+__label__calendar_set 提醒 我 一下 即将 到来 的 国庆 假期
+__label__calendar_remove 删除 我 今天下午 一点 的 日程表 活动
+__label__calendar_set 为 我 傍晚 五点 的 会议 设 一个 提醒
+__label__calendar_set 请 添加 周三 上午 九点 在 格林 医生 办公室 的 预约
+__label__calendar_query 今晚 的 足球赛 的 精彩 部分 是 什么
+__label__calendar_query 告诉 我 今天 有 什么 日程安排
+__label__calendar_query 布鲁诺 马尔斯 什么 时候 来 四平
+__label__calendar_set 我 想 在 我 的 日程表 上 增加 一些 事情
+__label__calendar_remove 从 日历 中 清除 活动 并 刷新
+__label__calendar_query 我 有 什么 活动 要 做
+__label__calendar_remove 删除 日历 上 的 下 一个 事件
+__label__calendar_remove 取消 日历 上 的 下 一个 事件
+__label__calendar_query 今天 八点 十分 之间 我 有 什么 会面
+__label__calendar_set 明天 下午 两点 提醒 我
+__label__calendar_set 在 我 的 日程表 上 安排 一个 活动 本 周六 在 杰克 的 家里 的 泳池 派对
+__label__calendar_query 一月 一日 安排 的 活动 的 地址 在 哪里
+__label__calendar_set 我 想 明天 见 莎拉
+__label__calendar_set 取消 我 周二 和 丽莎 的 会议 把 它 改到 周四
+__label__calendar_remove 把 星期四 的 午餐 从 我 的 日程表 上 划掉
+__label__calendar_set 设置 事项 每月 十五日 提醒 我交 网费
+__label__calendar_set 把 下面 的 日期 和 时间 添加 到 我 的 日历 中
+__label__calendar_query 这个 活动 什么 时候
+__label__calendar_set 添加 一个 开始 于 五月 五日 下午 三点 在 高申 纽约 的 丹 的 毕业 的 事件
+__label__calendar_query 去年 我 参加 了 多少 个 小时 的 会面
+__label__calendar_remove 删除 会议
+__label__calendar_set 我 和 李雷 在 三月 二十一日 十点 有 一个 会面
+__label__calendar_query 我 得 准备 一个 会面
+__label__calendar_query 告诉 我 的 即将 到来 的 事项
+__label__calendar_remove 从 日历 中 删除 下 一个 事项
+__label__calendar_query 我 的 日历 上 有 写 二零一 七年 四月 一号 我 有空 吗
+__label__calendar_set 设置 一个 每周 的 预约 提醒
+__label__calendar_set 在 后天 将 其 标记 为 我 的 假期
+__label__calendar_set 周二 中午 会议
+__label__calendar_query 三月 十七号 我 有 安排 什么 吗
+__label__calendar_set 奥利 安排 医生 的 预约 在 周五 下午 两点
+__label__calendar_set 你 能 把 我 的 晚餐 预订 添加 到 我 的 日历 吗
+__label__calendar_set 为 阿尔伯特 的 婚礼 设置 日历 信息
+__label__calendar_query 我 今天 有 日程安排
+__label__recommendation_events 搜索 我 所在 地区 的 假日
+__label__recommendation_events 搜索 特定 日期 最近 发生 的 事情
+__label__calendar_query 我 的 列表 里面 有 任何 提醒 吗
+__label__calendar_set 请 提醒 我 关于
+__label__alarm_set 定个 闹钟
+__label__calendar_set 周一 有 什么 会议 需要 提醒 我 吗
+__label__calendar_query 日历 活动 是否 有误
+__label__calendar_remove 删除 我 本周 剩余时间 所有 的 会议
+__label__calendar_set 在 日历 上 设置 每年 五月 二日 是 韩梅梅 的 生日 并 重复
+__label__calendar_set 提醒 我 带上 我 的 雨衣 因为 会 下雨
+__label__calendar_set 告诉 我 带上 我 的 伞 因为 今天 很 热
+__label__calendar_query 二零一 七年 六月 十四日 有 什么 日程安排
+__label__calendar_remove 请 删除 我 周日 所有 的 提醒
+__label__calendar_set 还 记得 星期四 在 意大利 小酒馆 的 晚饭 吗
+__label__calendar_set 设置 提醒
+__label__calendar_set 定 一个 与 这些 人 的 活动
+__label__calendar_remove 清除 今天 我 的 日程
+__label__calendar_query 细节
+__label__calendar_query 告诉 我 最近 的 活动
+__label__calendar_query 会议 在 什么 时候
+__label__calendar_query 聚会 定 在 什么 时候
+__label__calendar_set 通知 我下 一周 全部 事情
+__label__calendar_set 李雷 结婚 纪念日
+__label__calendar_query 这个 月 什么 时候 是 假期
+__label__calendar_set 让 我 知道 周二 会议
+__label__calendar_set 我 想 让 你 提醒 我 晚间 节目
+__label__calendar_remove 从 日历 里 删除 埃里克 的 生日
+__label__calendar_set 天猫 精灵 设置 一个 二零一 七年 三月 二十一日 的 部门 副总裁 会议 日程
+__label__calendar_set 我 需要 再 星期四 和 首席 财务 官开 一个 会议
+__label__calendar_remove 从 我 的 日历 删除 生日 活动
+__label__calendar_set 提醒 我 四月 五日 和 老板 有个 会议
+__label__calendar_set 创建 一个 这个 星期四 签证 申请 的 提醒
+__label__calendar_remove 七月 三日 日程表 留成 空白
+__label__alarm_set 设置 一个 星期二 下午 四点 的 闹钟
+__label__calendar_set 创建 一个 星期二 莫娜 的 婚礼 的 活动 提醒
+__label__calendar_set 在 日历 上放 一个 重复 活动
+__label__calendar_query 我 本周 忙 吗
+__label__calendar_query 我 下周 有 预约 吗
+__label__calendar_remove 删除 后天 的 活动
+__label__calendar_set 提醒 重置 必需 的 事件
+__label__calendar_set 在 我 的 家庭 日历 上 添加 我 的 姐妹 拜访
+__label__qa_factoid 会议 中心 坐落 在 哪里
+__label__calendar_query 周五 有 会议 吗
+__label__calendar_set 提醒 我 星期六 十二点 钟 预约
+__label__calendar_query 天猫 精灵 我 的 日历 上 本月 有 任何 活动 吗
+__label__calendar_set 请 在 下 周六 上午 十点 做 一个 日历 条目
+__label__calendar_set 提醒 我 一月 二十二日 的 会议
+__label__calendar_set 一 小时 后 提醒 我 这个 会议
+__label__calendar_set 一个 小时 后 提醒 我 会议
+__label__play_radio 播放 一些 广播
+__label__play_radio 流行 广播电台
+__label__play_radio 打开   pandora   播放 摇滚 电台
+__label__play_radio 播放 摇滚 的 酷狗 音乐
+__label__play_radio 调 一个 能 有 好听 的 笑话 的 广播 频道
+__label__play_radio 打开 电台
+__label__play_radio 音乐 之声
+__label__play_radio 打开 电台
+__label__play_radio 请调 收音机 频道
+__label__play_radio 我 想 听 那个 广播 频道
+__label__play_radio 打开 收音机
+__label__play_radio 你 能 打开 叱咤 九零 三 电台 频道 吗
+__label__play_radio 播放 纯音乐
+__label__play_radio 跳转 到 中国 之声
+__label__play_radio 打开 调频 中国 之声
+__label__play_radio 请 播放 收音机
+__label__play_radio 开启 收音机
+__label__play_radio 去 我 最 喜欢 的 频道
+__label__play_music 播放 一首 能 让 我 微笑 的 歌
+__label__play_radio 播放 音乐 之声
+__label__play_radio 请 播放 英国广播电台 四
+__label__play_radio 播放 交通广播
+__label__play_radio 请 打开 我 的   f .   m .   电台 并放 九百 八十七
+__label__play_radio 奥利 我 想 听 中国 之声
+__label__play_radio 在 电台 播放 足球比赛
+__label__play_radio 我 的 体育 播客 中 有 多少 有 我 还 没有 听过 的 新剧 集
+__label__play_radio 打开 潘多拉 并 播放 热门 歌曲
+__label__play_radio 请 在   pandora   播放 流行音乐
+__label__play_radio 为 我 播放 中国 之声 广播
+__label__play_radio 从 坎普 电台 播放 一些 电台 音乐
+__label__play_music 请 播放 最 热门 的 乡村音乐
+__label__play_radio 在 收音机 播放 音乐节目
+__label__play_music 播放 当前 播放列表
+__label__play_radio 在 天狼星 上 找到 乔尔 · 奥斯汀 的 广播
+__label__play_radio 播放 一零 二点 四台   the   buzz
+__label__play_radio 在 调频 播放 新闻
+__label__play_radio 播放 尼尔 布伦南 一集 等待 别 告诉 我
+__label__play_radio 播放 九 十三点 五 调频
+__label__play_radio 播放 一个 新闻 电台
+__label__play_radio 好 的   google   你 能 开始 放王涛 的 节目 吗
+__label__play_radio 晚上 九点 播放 我 最 喜欢 的 电台
+__label__play_radio a .   m .   鹤山 电台
+__label__play_radio 播放 王源 在 未来
+__label__play_radio 今天 早上 什么 电台 在 播放 好 音乐
+__label__play_radio 调 到 调频 九十九 点五
+__label__play_radio 播放 乡村音乐 电台
+__label__play_radio 听 人民之声 节目
+__label__play_radio 播放 英国广播电台 四
+__label__play_radio 播放 这个 节目
+__label__play_audiobook 你 能 播放 我 最 爱 的 三体 有声书 吗
+__label__play_audiobook 你 能 播放 东宫 的 有声书 吗
+__label__play_audiobook 开始 播放 阿尔玛 的 第七章
+__label__play_audiobook 恢复 有声书 罗马 历史
+__label__play_audiobook 你 能 暂停 音频 吗
+__label__play_audiobook 继续 播放 我 的 有声书
+__label__play_audiobook 暂停 有声书
+__label__play_audiobook 从 我 停止 的 地方 打开 飞狐 外传
+__label__play_audiobook 开始 播放 金庸 的 有声书
+__label__play_audiobook 播放 最近 添加 的 有声 读物
+__label__play_audiobook 播放 音频
+__label__play_audiobook 从 我们 暂停 的 地方 继续 我 的 有声书
+__label__play_audiobook 再 继续 简历 上次 播放 的 有声书
+__label__play_audiobook 请 播放 最近 暂停 的 音频
+__label__play_audiobook 从 我 开始 的 最后 一 章节 的 开端 恢复 我 的 有声书
+__label__play_audiobook 播放 天龙八部
+__label__play_audiobook 让 我们 休息 五分钟
+__label__play_audiobook 开始 看书
+__label__play_audiobook 恢复 书剑 恩仇录
+__label__play_audiobook 从 上次 最 後 播放 的 位置 繼續 播放 鬼吹灯 有声 读物 并
+__label__play_audiobook 在 有声 读物 中 寻找 此 播放 并 为 我 播放
+__label__play_audiobook 请 在 有声 读物 中 恢复 此 播放
+__label__play_audiobook 从   downpour   听 天龙八部
+__label__play_audiobook 开始 朗读 盗墓 笔记 第四章
+__label__play_audiobook 在 有声 读物 继续 林俊杰 的 歌
+__label__play_audiobook 播放 有声 读物 孟母三迁
+__label__play_audiobook 你 能 继续 播放 鬼吹灯 有声书 吗
+__label__play_audiobook 有声 读物 播放 十面埋伏
+__label__play_audiobook 恢复 播放 喜马拉雅 的 英文会话
+__label__play_audiobook 请 播放 只 对 你 有 感觉
+__label__play_audiobook 开始 阅读 金庸 的 那本书
+__label__play_audiobook 请 继续 我 的 有声 读物
+__label__play_audiobook 继续 播放 我 的 天龙八部
+__label__play_audiobook olly   继续 播放 神雕侠侣
+__label__play_audiobook 这个 有声 读物 这个 位置
+__label__cooking_recipe 告诉 我 如何 做 蒜蓉 面包
+__label__cooking_recipe 做 意大利 面 需要 多少 时间
+__label__cooking_recipe 我 可以 用西 蓝花 和 鸡肉 做 什么
+__label__cooking_recipe 教 我 做饭
+__label__cooking_recipe 如何 煮 意大利 面
+__label__cooking_recipe 什么 调料 可以 代替 白葡萄酒
+__label__cooking_recipe 请 播放 制作 川菜 的 视频
+__label__cooking_recipe olly   龙虾 浓汤 怎么 做
+__label__cooking_recipe 鸭肉
+__label__cooking_recipe 最 性感 的
+__label__cooking_recipe 披萨 松脆 的
+__label__cooking_recipe 你 会 怎么 煮 黑眼 豆
+__label__cooking_recipe 告诉 我 食谱
+__label__cooking_recipe 用谷歌 向 我 展示 如何 烹饪
+__label__cooking_recipe 给 我 最好 的 烹饪 方法
+__label__cooking_recipe 给 我 看看 饼干 的 食谱
+__label__cooking_recipe 如何 做 饼干
+__label__cooking_recipe 夸脱
+__label__cooking_recipe 怎么 烤 土豆
+__label__cooking_recipe 寻找 披萨 食谱
+__label__cooking_recipe 我 怎么 做 肉饼
+__label__cooking_recipe 找个 做 鸡汤 面条 的 食谱
+__label__cooking_recipe 搜索 无 麸质 菜单
+__label__cooking_recipe 给 我 看看 如何 烹饪 的 食谱
+__label__cooking_recipe 冰箱 派要 冷藏 多久
+__label__cooking_recipe 乳酪 蛋卷
+__label__cooking_recipe 找下 做 热狗 的 食谱
+__label__cooking_recipe 用 珐琅 铸铁 锅 做 阿尔弗雷 多鸡 的 食谱
+__label__cooking_recipe 你 能 拿出 一份 兰州 拉面 的 食谱 吗
+__label__cooking_recipe 拿出 火鸡肉 丸 的 食谱
+__label__cooking_recipe 食谱
+__label__cooking_recipe 鸡胸 应该 烤 多长时间
+__label__cooking_recipe 蟹肉 的 食谱
+__label__cooking_recipe 我 需要 一些 做 川菜 的 晚餐 点子
+__label__cooking_recipe 没有 更 多 评论
+__label__cooking_recipe 煮 鸡蛋 要 煮 多长时间
+__label__cooking_recipe 找到 杏仁 牛奶 的 简单 食谱
+__label__cooking_recipe 找下 做 熏鸡 的 食谱
+__label__cooking_recipe 餐 食谱
+__label__play_game alexa   跟 我 下棋
+__label__play_game 我 想 下棋 你 可以 吗
+__label__play_game 来 一场 漂亮 的 国际象棋 怎么样
+__label__play_game 播放 纸牌 游戏
+__label__play_game 玩 一局 赛车 游戏
+__label__play_game 來 玩 弹珠
+__label__play_game 开始 玩 接龙
+__label__play_game 想要 和 我 玩 一个 游戏
+__label__play_game 我 想 从 第五 关 开始 玩 足球 游戏
+__label__play_game 想要 玩 百万富翁
+__label__play_game 寻找 游戏
+__label__play_game 和 我 玩 王者 荣耀
+__label__play_game 让 我们 一起 解决 拼图
+__label__play_game 打开 连连看
+__label__play_game 让 我们 一起 玩 跳棋
+__label__play_game 玩游戏
+__label__play_game 你 能 在 王者 荣耀 里面 选 一个 英雄 吗
+__label__play_game 请 和 我 一起 玩 下棋
+__label__play_game 你 能 玩 我 画 你 猜 吗
+__label__play_game 你 能 和 我 玩 扑克 吗
+__label__play_game 让 我们 一起 玩 百万富翁
+__label__play_game 让 我们 一起 玩井字 棋
+__label__lists_query 列出 我 的 购物 清单 上 的 物品 奥利
+__label__lists_remove 取消 下周 去 包头 的 旅行
+__label__lists_query 我 今天 的 购物 清单 上 有 什么
+__label__lists_remove 把 面包 从 购物 清单 划掉
+__label__lists_query 在 我 的 聚会 购物 列表 中 加上 伏特加
+__label__lists_remove 删除 购物 清单
+__label__lists_createoradd 你 可以 创建 个 新 清单 吗
+__label__lists_remove 从 上周 买 的 东西 删除 食物 清单
+__label__lists_remove 取决于 看到 了 什么
+__label__lists_remove 清除 清单
+__label__lists_createoradd 做个 清单
+__label__lists_query 我 给 哪 一个 杂货店 做 了 清单
+__label__lists_query 在 我 的 清单 上 有 什么
+__label__lists_query 哪些 清单 可用
+__label__lists_remove 查找 清单 并且 删除 苹果
+__label__lists_remove 删除 我 的 老 英语 歌曲 列表
+__label__lists_remove 请 删除 一个 清单
+__label__lists_createoradd 在 清单 加上 这个 项目
+__label__lists_query 哪些 是 我 最后 的 五个 列表
+__label__lists_query 把 上传 的 最后 一个 清单 发给 我
+__label__lists_createoradd 给 我 做 一个 数字 清单
+__label__lists_createoradd 创建 一个 新 的 清单 给 我
+__label__lists_query 在 我 今天 必做 清单 上 有 什么
+__label__general_quirky 我 今天 在 干嘛
+__label__lists_query 在 我 的 待办 清单 上 勾掉 第五个 项目
+__label__lists_query 查 一下 我 的 清单
+__label__lists_remove 在 清单 里 删除 数据 表格
+__label__music_query 告诉 我 播放列表
+__label__lists_query 清单 上 有 多少 食品
+__label__lists_remove 清单 所有 食品 事项 里 不能 包含 以干 打头 的 食品
+__label__lists_createoradd 明天 前 创建 一个 新 的 清单
+__label__lists_createoradd 创建 一个 新 的 清单
+__label__lists_createoradd 把 铅笔 加 到 一个 新 的 食品 杂物 清单
+__label__lists_remove 请 从 清单 删除 这个 项目
+__label__lists_createoradd 添加 食品 杂物 到 清单
+__label__lists_query 读 一下 这个 清单
+__label__lists_query 列出 我 的 清单
+__label__lists_query 告诉 我 都 有 哪些 清单
+__label__lists_remove 删除 第三条 项目
+__label__lists_query 列表 中 包含 什么
+__label__lists_createoradd 清单 里 加上 这个 事项
+__label__lists_query 显示 可用 的 清单
+__label__lists_query 你 能 告诉 我 我 的 清单 上 有 什么 吗
+__label__lists_remove 从 我 的 杂货 清单 删除 胡椒粉
+__label__lists_createoradd 在 我 的 清单 加上 某物
+__label__lists_remove 从 我 的 清单 上 删除 那个 东西
+__label__lists_query 谷歌 翻译
+__label__lists_query 朗读 我 的 这周 计划 了 什么 必做 清单
+__label__lists_query 读 购物 清单 项目
+__label__lists_createoradd 把 麦片 加到 我 的 购物 清单
+__label__lists_query 鸡蛋 在 我 的 购物 清单 上 吗
+__label__lists_query 我 有 参加 我 计划 的 派对 的 联系人 清单 吗
+__label__lists_remove 删除 我 的 待办 清单
+__label__lists_remove 在 清单 上 删除 项目
+__label__lists_createoradd 请 把 牛奶 加 到 杂货 清单
+__label__lists_query 你 能查 一下 我 的 清单 吗
+__label__lists_remove 打开 清单 删除 清单
+__label__lists_query 奥利 我 的 清单 上 的 下 一步 是 什么
+__label__lists_remove 从 我 的 杂货 清单 里 删除 牛奶
+__label__lists_query 请 告诉 我 我 有 什么 清单
+__label__lists_remove 从 清单 中 重新排列 那 项
+__label__lists_remove 从 清单 里 把 它 减掉
+__label__lists_query olly   我 那 清单 上 还有 什么 啊
+__label__lists_createoradd 在 我 今天 的 待办 清单 上 加上 买 杂货
+__label__lists_remove 请 告诉 我 怎么 删除 东西
+__label__lists_query 我能 查看 我 的 清单 吗
+__label__lists_query 我 做 了 一个 购物 清单
+__label__lists_remove 从 我 的 清单 删除 项目
+__label__lists_createoradd 创建 一个 新 的 清单
+__label__lists_query 告诉 我 那个 清单 关于
+__label__lists_remove 请 删除 第一个 清单
+__label__calendar_remove 把 周三 早上 的 会 去掉
+__label__lists_createoradd 创建 一个 新 的 我 的 待 付账 单 清单
+__label__lists_query 把 我 的 列表 读 给 我 听
+__label__lists_query 给 我 我 的 清单
+__label__lists_createoradd 制作 工作 的 清单
+__label__lists_remove 请 删除 踢球 为 标题 的 表单
+__label__lists_remove 我 不再 需要 这个 清单 了
+__label__lists_query 在 我 的 待办 清单 上 我 有 任何 事情 要 做 吗
+__label__lists_query 现在 有 什么 清单 可用 呢
+__label__lists_remove 删除 最后 那 行
+__label__lists_createoradd 给 学校 用品 创建 一个 新 的 清单
+__label__lists_remove 把 打电话 给 报纸 从 我 的 度假 清单 删除
+__label__lists_query 给 我 的 读出 我 今天 的 购物 清单
+__label__lists_query 今天 列表 上 有 什么
+__label__lists_createoradd 给 清单 包含 一个 项目
+__label__lists_remove 把 购买 杂货 从 清单 里 去掉
+__label__lists_remove 我们 的 油漆 用 完 了 所以 把 浴室 油漆 从 清单 上 去掉
+__label__lists_createoradd 提醒 我 多 订点 肥皂
+__label__lists_query 打开 我 的 清单
+__label__lists_remove 删除 最后 播放 的 歌
+__label__email_addcontact 请 将 小明 添加 到 我 的 联系人 列表
+__label__lists_query 你 能 读 我 的 清单 吗
+__label__lists_query 哪些 是 我 的 清单
+__label__lists_query 嘿   olly   我 的 清单 是 什么
+__label__lists_query 你 能 告诉 我 我 的 杂货 清单 上 有 什么
+__label__lists_query 在 清单 上 那个 是 什么
+__label__lists_query 告诉 我 清单 上 有 什么
+__label__lists_remove 删除 一个 清单
+__label__lists_remove 在 购物 清单 里 删除 牛奶
+__label__lists_createoradd 把 牛奶 加到 我 的 食品 杂物 清单
+__label__lists_remove 删除 王菲 音乐 列表
+__label__lists_query 这个 特别 的 清单 上 有 什么 啊
+__label__lists_query 我能 看 下 我 的 工作 清单 吗
+__label__lists_createoradd 把 这个 加 到 清单
+__label__lists_remove 移除 今天 的 必 做 清单
+__label__lists_remove 我 不 想要 鸡蛋
+__label__lists_query 列出 可用 的
+__label__lists_createoradd 创建 一个 每月 要 买 的 杂货 清单
+__label__calendar_query 我 的 工作 时间表
+__label__lists_query 我 的 健康 计划
+__label__lists_createoradd 把 糕点 加 到 圣诞 清单
+__label__lists_remove 删除 必做 清单
+__label__lists_createoradd 删除 以前 的 播放列表 并 创建 新 的
+__label__lists_query 查看 清单
+__label__lists_query 在 我 的 待办 清单 上 有 多少 个 东西
+__label__lists_query 查看 我 的 清单
+__label__play_podcasts 你 能 在 播客 上 转发 一集 吗
+__label__play_podcasts 播放 下 一集
+__label__play_podcasts 定位 我 的 播客
+__label__play_podcasts 继续 下 一集
+__label__play_podcasts 播放 最新 的 原因 播客
+__label__play_podcasts 转到 下 一个
+__label__play_podcasts 播放 大内 密谈 第七集
+__label__play_music 找到 并 制作 一个 所有 最新 舞曲 的 播放列表
+__label__play_music 排列 和 播放 刘若英 的 所有 歌曲
+__label__play_podcasts 从头开始 播放 这个 播客
+__label__play_podcasts 播放 我 昨晚 停止 的 那个 播客
+__label__play_podcasts 跳到 下 一个 播客
+__label__play_podcasts 重播 以下 播客
+__label__play_podcasts 跳到 下 一个 播客
+__label__play_podcasts 我 想 听 林俊杰 的 播客
+__label__play_podcasts 收藏夹
+__label__play_podcasts 请 前进
+__label__play_podcasts 找到 播客 并 播放 它
+__label__play_music 你 能 播放 我 的 音乐文件 吗
+__label__play_podcasts 跳到 下 一个
+__label__play_podcasts 停止 这个 播客 开始 大内 密谈
+__label__play_podcasts 听 林俊杰 的 最新 播客
+__label__play_podcasts 播放 最新 的 声行 漫步
+__label__play_podcasts 开始 播客 大内 密谈
+__label__play_podcasts 为 我 显示 评分 最高 的 播客
+__label__play_podcasts 首事 你 应该 知道 的 事情
+__label__play_music 播放 经典歌曲
+__label__play_podcasts 播放 一席 播客
+__label__play_podcasts 返回 一集
+__label__play_podcasts 倒 带 按钮
+__label__play_podcasts 我要 看 最后 一集
+__label__play_podcasts 奥利 播放 重量级 播客
+__label__play_podcasts 播放 保存 在 设备 中 的 巴拉克 奥巴马 播客
+__label__play_podcasts 网络 播客
+__label__play_podcasts 更 多 更 清晰 和 以 主题 为 导向
+__label__play_podcasts 五月天
+__label__play_podcasts 播放 最近 一集 超 音乐
+__label__play_podcasts 我 想 听 这个 播客
+__label__recommendation_movies 这 周 电影院 有 哪些 新 的 电影 上映
+__label__recommendation_events 北京市 附近 有狗展 吗
+__label__recommendation_locations 城里 最近 的 酒吧 在 哪里
+__label__recommendation_events 附近 有 什么 音乐会
+__label__recommendation_movies 环球 影院 正在 上映 什么 电影
+__label__recommendation_events 国家大剧院 安排 了 哪些 展览 或 表演
+__label__recommendation_events 我 附近 正 发生 什么 事
+__label__recommendation_locations 想 在 我 的 附近 吃 东北 食物 我 应该 去 哪
+__label__recommendation_locations 我 想 吃 寿司 最近 的 店 是 哪家
+__label__recommendation_locations 搜索 附近 的 川菜 餐馆
+__label__recommendation_events 今晚 的 美食节 在 哪里
+__label__recommendation_locations 我 正在 找 礼服 展示 你 能 给 我 找 一些 一 公里 之内 的 服装店 吗
+__label__recommendation_locations 最近 的 餐厅 在 哪里
+__label__recommendation_locations 小度 告诉 我 附近 商店 的 位置
+__label__recommendation_movies 今天 有 新 的 电影 吗
+__label__recommendation_locations 告诉 我离 我 最近 的 一些 食品店
+__label__recommendation_locations 北京 有 什么 好 的 自行车 专卖店
+__label__recommendation_locations 当地 最好 的 酒吧
+__label__recommendation_events 告诉 我 全部 本地 活动
+__label__recommendation_locations 附近 的 杂货店
+__label__recommendation_movies 我 可以 在 北京 附近 的 电影院 观看 哪部 浪漫 喜剧电影
+__label__recommendation_events 游玩 神农架 国家 公园 的 时候 列 一个 游玩 清单
+__label__recommendation_events 当 我 游玩 神农架 国家 公园 时 应该 做 哪些 事
+__label__recommendation_events 我 附近 有 什么 有趣 的 事儿 吗
+__label__recommendation_movies 我 附近 的 电影院
+__label__recommendation_events 下周 上海 将 举行 什么 书展 活动
+__label__recommendation_movies 最近 的 电影院 中 哪家 有 成龙 的 电影 上映
+__label__recommendation_events 上海市 正在 举办 的 活动 有 哪些
+__label__recommendation_movies 西游记
+__label__recommendation_locations 南京 谁家 卖 的 上网 本 最 便宜
+__label__recommendation_locations 这里 最好 的 服装店 是 那 一家
+__label__recommendation_locations 帮 我 找 一个 卖 啤酒 的 店
+__label__recommendation_movies 附近 剧院 上映 什么 电影
+__label__recommendation_movies 我 附近 有 什么 正 上映 的 高分 电影 吗
+__label__recommendation_movies 有关 好 的 昆曲 的 电影
+__label__recommendation_events 在 我 的 地区 发生 了 什么 活动
+__label__recommendation_events 那种 旗帜 骑行 最好
+__label__recommendation_movies 有 什么 值得 看 的 吗
+__label__recommendation_events 告诉 我本 周末 附近 的 活动
+__label__recommendation_events 武汉市 发生 了 什么 事
+__label__recommendation_locations 我家 附近 有 什么样 的 商店
+__label__recommendation_locations 能 推荐 下 附近 便宜 点 的 餐厅 吗
+__label__recommendation_locations olly   我 附近 有些 什么 餐厅
+__label__recommendation_locations 我 附近 最近 的 爱尔兰 酒吧 在 哪
+__label__recommendation_locations olly   我 附近 有 什么 酒吧
+__label__recommendation_events 给 我 看 在 北京 举办 的 所有 展会
+__label__recommendation_events 告诉 我 在 我 的 城市 正 发生 什么 事
+__label__recommendation_events 今天 重庆市 发生 了 什么 事
+__label__recommendation_locations 我 的 附近 有 多少 家 食杂店
+__label__recommendation_locations 问问 附近 的 餐厅
+__label__recommendation_locations 我 饿坏 了 在 上海 有 什么 好吃 的
+__label__recommendation_locations 欧丽 在 上海 我能 到 哪个 酒馆 喝 两杯
+__label__recommendation_events 今天 的 当地 活动
+__label__recommendation_locations 列出 附近 所有 商店
+__label__recommendation_locations 能 给 我 推荐 一些 朝阳路 的 酒吧 吗
+__label__recommendation_events 附近 发生 了 什么
+__label__recommendation_locations 在 附近 找 一家 能外 送 披萨 的 华莱士
+__label__recommendation_locations 胜利 路上 有 什么 烧烤店 吗
+__label__recommendation_events 请 查找 我 所在 地区 的 活动
+__label__transport_ticket 嗨 欧丽 我 需要 一张 周三 去 深圳 的 火车票
+__label__transport_query 下 一班 去 康沃尔 的 火车 什么 时候 开
+__label__transport_query 去 法国 最好 的 路线 是 什么
+__label__transport_taxi 半小时 后 我 要 去 唐人街 帮 我 叫 辆 滴滴
+__label__transport_ticket 李强 订 了 一张 本 周五 下午 五点 去 北京 的 高铁 票
+__label__transport_ticket 订 一张 从 曼哈顿 到 纽约 的 经济舱 的 火车票
+__label__transport_traffic 休斯敦 街 交通状况 怎样
+__label__transport_taxi 马上 给 我 叫 辆 优步
+__label__transport_traffic 运河 街 的 车辆 多 吗
+__label__transport_traffic 现在 鲍 厄里 街 的 交通状况 如何
+__label__transport_taxi 马上 给 我 叫 个 滴滴
+__label__transport_query 火车站 在 哪
+__label__transport_taxi 你 能 在 十五分钟 内 叫 优步 到 我家 吗
+__label__transport_taxi 我 需要 一辆 出租车 送 我 去 机场
+__label__transport_ticket 帮 我订 一张 飞机票
+__label__transport_taxi 找辆 出租车 回家
+__label__transport_taxi 从 我家 预订 神州 专车
+__label__transport_query 你 能 告诉 我下 四趟 去 上海 的 火车 吗
+__label__transport_traffic 中山路 的 交通 怎么样
+__label__transport_traffic 交通状况 怎样
+__label__transport_query 给 我 一张 下 周四 去 波士顿 的 美铁 车票 越晚 越 好
+__label__transport_query 吉林省 邯郸
+__label__transport_query 下 一趟 去 上海站 的 火车 是 什么 时候
+__label__transport_taxi 咱们 打辆 出租车 吧
+__label__transport_query 告诉 我 最近 的 火车站 怎么 走
+__label__transport_query 从 布鲁克林 到 皇后区 的 火车 时间
+__label__transport_ticket 找 两张 周二 去 北京 的 火车票
+__label__transport_traffic 上班 回家 的 交通状况 如何
+__label__transport_traffic 告诉 我 从 这里 到 家里 的 交通状况
+__label__transport_taxi 预订 出租车
+__label__transport_ticket 和 车费
+__label__transport_traffic 德里 的 交通 水平 太高 了
+__label__transport_taxi 明天 早上 去 机场 出租车
+__label__transport_traffic 我 很 想 知道 交通状况
+__label__transport_taxi 我 的 最近 的 出租车
+__label__transport_query 到 布赖 顿 怎么 走
+__label__transport_taxi 给 我 找 一辆 滴滴 顺风 车
+__label__transport_taxi 预定 一辆 出租车
+__label__transport_ticket 购 回去 上海 的 最后 一张 火车票
+__label__transport_ticket 今天 帮 我 买 一张 去 利兹 市 的 火车票
+__label__transport_query 最近 的 苹果 商店 的 地址
+__label__transport_traffic 告诉 我 目前 的 交通状况
+__label__transport_query 从 纽约市 到波 基普 西 的 火车 时间 是 多少
+__label__transport_query 从 纽约市 到波 基普 西 怎么 走
+__label__transport_traffic 从家 到 公司 的 路况 如何
+__label__transport_taxi 搭便车
+__label__transport_query 二十三 号 去 克拉克 斯维尔 的 列车 几点 开
+__label__transport_ticket 购买 火车票
+__label__transport_taxi 我 明天 早上 八点 需要 一辆 出租车
+__label__transport_ticket 预订 早上 出发 的 机票
+__label__transport_taxi 今晚 晚上 十点 后 找 一个 滴滴 司机
+__label__transport_query 去 上海 的 火车 什么 时候 开
+__label__transport_ticket 你 可以 给 我订 一张 下 周二 去 广州 的 火车票 吗
+__label__transport_query 火车 什么 时候 离开 费城
+__label__transport_query 北京 运通 火车
+__label__transport_taxi 给 我 本地 出租车 公司 的 出租车 服务 电话号码
+__label__transport_query 地方
+__label__transport_query 迪士尼 乐园 的 方向 指南
+__label__transport_taxi 我要 去 那个 地方 呼叫 辆 出租车
+__label__transport_query 我 想要 一份 这个 地区 所有 的 火车票 价格 清单
+__label__transport_ticket 我要 去 里昂 订张 火车票
+__label__transport_query 从 旧金山 到 纽约 的 火车 时间 是 多少
+__label__transport_ticket 请 给 我 买 一张 去 亚特兰大 的 火车票
+__label__transport_query 一张 火车票 多少 钱
+__label__transport_query 请 告诉 我 怎样 去 买 一张 去 纽约 的 火车票
+__label__transport_query 你 能 告诉 我 去 安娜 堡 的 火车 时间 吗
+__label__transport_ticket 明天 早上 十点钟 天津 火车票
+__label__transport_query 我要 去 美国银行 给 我 指路
+__label__transport_ticket 请订 一张 去 洛杉矶 的 火车票
+__label__transport_taxi 明天 早上 八点 我 需要 一辆 出租车 送 我 去 上班
+__label__transport_traffic 目前 的 交通 情况
+__label__transport_query 火车 的 时间 是 什么
+__label__transport_traffic 你 能 检查一下 到 我们 的 家 的 交通 情况 吗
+__label__transport_traffic 交通拥堵 吗
+__label__transport_ticket 给 我 买 张去 亚特兰大 的 火车票
+__label__transport_traffic 乔治亚州 亚特兰大 的 交通 通常 有 多少
+__label__transport_ticket 预定 这个 的 火车票 的 时间
+__label__transport_taxi 设置 优步
+__label__transport_taxi 请 帮 我 找 一辆 去 美国 购物中心 的 车
+__label__transport_taxi 马上 叫辆 出租车 来接 我
+__label__transport_traffic 有 交通 问题 吗
+__label__transport_query 最近 的 麦当劳 怎么 走
+__label__transport_query 我要 走 哪条 街 才能 到 市中心
+__label__transport_ticket 我 需要 买 一张 火车票
+__label__transport_ticket 订 一张 火车票
+__label__transport_query 去 旧金山 的 火车票 多少 钱
+__label__transport_taxi 向 汽车 租赁 公司 申请 一辆 出租车
+__label__transport_traffic 今天 早上 的 交通 情况 如何
+__label__transport_traffic 现在 路况 怎样
+__label__transport_traffic 我 附近 的 交通 怎么样
+__label__transport_traffic 俄亥俄州 目前 的 交通状况 如何
+__label__transport_query 列出 所有 到 纽约 的 火车 时间
+__label__transport_query 把 所有 火车 和 时间 展示 给 纽约
+__label__transport_ticket 上海 今天 火车票
+__label__transport_query 到 中央 车站 去 哪条 路 最快
+__label__transport_ticket 打开 印度 铁路 餐饮 和 旅游 公司 应用程序 申请 去 订票
+__label__transport_ticket 帮 我订 一张 去 华盛顿 的 火车票
+__label__transport_taxi 一 小时 后 在 我 现在 的 位置 订 一辆 出租车
+__label__transport_traffic 今天 哪条 路线 交通 比较 少
+__label__transport_ticket 帮 我 预定 去 纽约 的 火车票
+__label__transport_taxi 给 我 叫 辆 出租车 周五 早上 五点 半送 我 去 机场
+__label__transport_ticket 让 我 搭 从 新泽西 到 纽约 的 通勤 火车
+__label__transport_query 你 能 列出 第二天 开往 切斯特 的 火车 清单 吗
+__label__transport_traffic 某一 特定 区域 的 道路 是 宽 还是 窄
+__label__transport_ticket 为 我 在 三月 二十日 的 火车 上 预订 一个 座位
+__label__transport_query 火车 动车
+__label__transport_taxi 请 预订 下 一辆 出租车
+__label__transport_taxi 请 在 滴滴 平台 上 给 我订 辆车
+__label__transport_query 我 什么 时候 能 赶上 最近 的 火车
+__label__qa_definition 找个 定义
+__label__qa_factoid 波兰 总统 是 谁
+__label__qa_currency 克罗地亚 用 什么 货币
+__label__qa_factoid 长颈鹿 有 多 高
+__label__qa_definition 在 什么 情况 下 你 会 用 无能为力 这个 词
+__label__qa_factoid 计算 这个 电阻 的 电阻
+__label__qa_maths 谷歌
+__label__qa_maths 浏览 中心
+__label__qa_definition 告诉 我 疏散 的 简要 定义
+__label__general_quirky 时间 旅行 真的 有 可能 吗 ？
+__label__qa_factoid 王菲 的 年龄 是 多少
+__label__email_sendemail 发 电子邮件 给 朋友
+__label__general_quirky 请 为 我 解释 启示录 中 所 呈现 的 不同 国家
+__label__qa_maths 三乘 七 是 什么
+__label__general_quirky 今晚 我 该 煮 什么
+__label__general_quirky 告诉 我 死 后会 发生 什么 事
+__label__qa_factoid 大卫 林奇 是 哪个 州 的
+__label__general_quirky 为 你 和 我 安排 一个 约会
+__label__qa_maths 四十二 的 平方根 是 多少
+__label__qa_factoid 告诉 我 为什么 周星驰 是 一个 比 宋丹丹 好 的 喜剧演员
+__label__qa_factoid 告诉 我 黄 渤 的 中间 名
+__label__qa_definition 如何 拼写 长颈鹿 这个 词
+__label__qa_definition 你 能 说出 改革开放 这个 词 吗
+__label__qa_factoid 世界 上 最长 的 建筑 是 哪个
+__label__music_query 你 听见 五月天 的 音乐 了 吗
+__label__calendar_set 定 一个 和 我 的 同事 会面 的 日程
+__label__qa_definition 那个 演员 演 这个 角色
+__label__qa_factoid 请 给 我 有关 阿米尔 汗 的 下 一部 电影 的 信息
+__label__qa_factoid 一个 也 没有
+__label__general_quirky 你 会 撒谎 吗
+__label__qa_definition 什么 是 飓风
+__label__qa_definition 谷歌 搜素 这个 词
+__label__qa_factoid 计算 从 北京 到 上海 的 距离
+__label__qa_maths 解决 这个 算法
+__label__qa_factoid 洛杉矶 有 多少 人口
+__label__general_quirky 你 的 母语 是 什么
+__label__qa_factoid 詹妮弗 · 洛佩兹 几岁
+__label__general_quirky 总结 我能 为 自己 做 的 所有 事情 更 开心
+__label__general_quirky 如果 简单 的 十步 就 能 让 我 变得 富有 的话 会 是 哪 十步
+__label__qa_factoid 最大 的 动物
+__label__qa_factoid 最高 的 建筑
+__label__qa_factoid 鹿晗 的 主要 居住地 在 哪里
+__label__general_quirky 我 在 什么 位置
+__label__qa_factoid 有 了 你 可以 在 互联网 上 收集 到 的 所有 信息 你 能否 向 我 提供 关于 谁 杀死 了 肯尼迪 总统 的 最 可能 的 解释
+__label__general_quirky 我 想 给 我 的 妻子 写 一些 原创 的 浪漫 的 短信
+__label__qa_factoid 告诉 我 华罗庚 和 他 的 数学 研究 历程 的 故事
+__label__qa_factoid 以下 问题 要求 您 分析 教师 的 目标 和 预期 的 行动
+__label__qa_factoid 谁 是 最 伟大 的 嘻 哈 艺术家
+__label__qa_definition 虚伪 是 什么 意思
+__label__qa_definition 假设 这个 词是 什么 意思
+__label__general_quirky 回答 这个 问题 超级 马里奥 兄弟 里 的 第一个   boss   是 谁
+__label__qa_definition 在 句子 中 用
+__label__qa_maths 二加 二 等于 多少
+__label__qa_definition 定义 转弯
+__label__general_quirky 定义 单词 时 调出 词库 并 给出 例句 让 单词 意思 更加 清晰
+__label__general_quirky 谁 是   n .   h .   l   .   有史以来 的 前 五名 射手
+__label__qa_factoid 本杰明 富兰克林 是 什么 时候 出生 的
+__label__qa_factoid 谁 是 纽约州 长
+__label__qa_definition 掌上电脑 的 定义 是 什么
+__label__qa_factoid 特朗普 的 支持率 是 多少
+__label__general_quirky 告诉 我 如何 得到 这个 问题 的 答案 吗
+__label__qa_maths 解决 数学 问题
+__label__general_quirky 其他 星球 上会 有 生命 吗
+__label__general_quirky 你 最 喜欢 什么 颜色
+__label__general_quirky 你 怎么 看待 机器人学 三 定律
+__label__general_quirky 告诉 我 今天 的 幸运色
+__label__general_quirky 读 一首 诗 给 我 听
+__label__general_quirky 上周 纳斯达克 价格 和 北京 的 天气 有 什么 关系 吗
+__label__qa_factoid 沈腾 是 独生子 吗
+__label__qa_definition 请 搜索 这个 词
+__label__qa_factoid 为什么 天空 是 蓝色 的
+__label__qa_maths 二十四 乘以 二十四 等于 多少
+__label__qa_factoid 一个 地球日 是 多长时间
+__label__general_quirky 我 希望 我们 可以 一起 吃 午餐
+__label__qa_factoid 谁 在 披头士乐队
+__label__general_quirky 世界 会 灭亡 吗 何时 会
+__label__qa_definition 时态 是 什么 意思
+__label__general_quirky 我 的 女朋友 现在 在 哪里
+__label__qa_definition 查找 救护车 的 定义
+__label__qa_factoid 果冻 丸 不 含 卡路里 吗
+__label__recommendation_locations 告诉 我 哪里 有 最 实惠 的 碎 牛肉
+__label__qa_definition 土豆 是 什么 意思
+__label__general_quirky 告诉 我 一个 有趣 的 事实
+__label__general_quirky 下 一次 巡演 是 什么 时候
+__label__qa_currency 目前 美元 和 欧元 的 汇率 是 多少
+__label__qa_definition 定义 框架
+__label__qa_definition 描述 一个 土豆
+__label__qa_factoid 阿德尔 去 钻石 城 多少 次 了
+__label__general_quirky 告诉 我 今天 世界 上 发生 了 哪些 奇事
+__label__datetime_query 告诉 我 现在 的 时间
+__label__qa_definition 你 如何 定义 文字
+__label__general_quirky 我 想 免费 去 瑞士 旅行 你 能 带我去 吗
+__label__qa_currency 日元 美元汇率 是 多少
+__label__qa_maths 五公里 等于 多少 英里
+__label__qa_factoid 安吉丽娜 朱莉 几岁
+__label__qa_factoid 斯托克顿 加利福尼亚 在 哪里
+__label__qa_factoid 奥巴马 现在 在 做 什么
+__label__qa_definition 什么 是 手机信号 塔
+__label__qa_currency 苏丹 镑 是 多少 瑞士法郎
+__label__qa_factoid 纽约 离 洛杉矶 多少 英里
+__label__qa_currency 美元 对 加币 的 兑换 汇率 是 多少
+__label__qa_definition 你 对 自由 女神像 了解 多少
+__label__qa_currency 美国 和 中国 之间 的 兑换率 是 多少
+__label__qa_definition 帮 我 找到 资料 关于
+__label__qa_factoid 美国 的 平均海拔 是 多少
+__label__qa_currency 美元 和 法郎 之间 的 兑换率 是 多少
+__label__qa_factoid 有 多少 人住 在 旧金山
+__label__qa_currency siri   一 美元 兑换 成 日元 是 多少
+__label__qa_factoid 比尔 普尔曼 是 哪一年 出生 的
+__label__qa_definition 告诉 我 关于 羊肚 菌 的 事
+__label__qa_stock 沃尔玛 的 股价
+__label__general_quirky 哪 种 宗教 最 真实
+__label__qa_factoid 伊利诺伊州 和 路易斯安那州 之间 有 多少 英里
+__label__qa_factoid 张译 多 大 了
+__label__qa_factoid 莎莉 菲尔德 曾 获得 过 学院奖 吗
+__label__qa_currency 告诉 我 日元 的 汇率 是 多少
+__label__qa_currency 美元兑 卢比 是 多少
+__label__qa_currency 请 告诉 我 美元 和 日元 之间 的 汇率
+__label__qa_definition 本垒打 的 定义 是 什么
+__label__qa_factoid 巴拉克 奥巴马 多少岁
+__label__general_quirky 我 需要 让 两个 婴儿 有事 做 告诉 我要 怎么 做
+__label__qa_factoid 你 能 告诉 我 美元兑 卢比 的 汇率 吗
+__label__qa_definition 告诉 我 有关 太阳能 花园 木桩 的 信息
+__label__qa_factoid 新罕布什尔州 最大 的 城市 是 什么
+__label__qa_definition 虚拟现实 耳机 的 描述 是 什么
+__label__calendar_query 我 有 什么 新 的 探探 配对 吗
+__label__qa_definition 香蕉 长 什么 样子
+__label__qa_factoid 谁 是 唐纳德 · 特朗普
+__label__qa_factoid 丹麦 在 哪里
+__label__qa_factoid 什么 是 峡湾
+__label__qa_factoid 多莉 帕顿 是 什么 时候 出生 的
+__label__qa_definition 推特 是 什么 意思
+__label__qa_factoid 北达科他州 在 哪里
+__label__qa_definition 胜利 是 什么 意思
+__label__qa_factoid 美国 最 北边 的 地方 是 哪里
+__label__qa_factoid 巨石阵 在 哪里
+__label__qa_stock 我 需要 亚马逊 的 股价
+__label__qa_currency 印度卢比 的 汇率 是 多少
+__label__qa_factoid 什么 是 百慕大 三角
+__label__qa_currency 菲律宾 比索 的 汇率 是 多少
+__label__qa_stock 脸书 目前 的 股价 是 多少
+__label__qa_factoid 显示 杨洋 的 传记
+__label__qa_currency 欧元 兑 美元
+__label__qa_factoid 你 能 给 我 圣雄甘地 的 生日 吗
+__label__qa_factoid 裤裙 是 什么 类型 的 裤子
+__label__qa_definition 在 维基百科 中 尝试
+__label__qa_currency olly   美元 在 巴西 值多 还是 值少
+__label__qa_definition 这件 衬衫 是 什么 样子 的
+__label__qa_stock 问 我 的 顾问
+__label__qa_stock 今天 的 道琼斯 指数 是 多少
+__label__qa_stock 请 告诉 我 如果 我 今天 投资 道琼斯 指数 我 什么 时候 可以 致富 五年 后 的 回报 是 多少
+__label__qa_factoid 猫王 是 哪一年 出生 的
+__label__recommendation_locations 找到 这个 地方 的 确切 位置
+__label__qa_maths 一 英尺 等于 多少 英寸
+__label__qa_currency 欧元 兑 加元 是 多少
+__label__qa_factoid 列出 艾玛 沃特森 的 前 五部 电影
+__label__qa_currency 美元 和 欧元 之间 的 汇率 是 多少
+__label__qa_maths 六减 四 等于 多少
+__label__qa_currency 告诉 我 一 欧元 等于 多少 美元
+__label__qa_factoid 英格兰 有 多 大
+__label__qa_factoid 告诉 我 关于 纽约 的 事
+__label__qa_factoid 展示 地球 上 的 各种 植物
+__label__qa_stock 可口可乐 股票 今天 怎么样
+__label__qa_factoid 奥巴马 的 妻子 是 谁
+__label__qa_stock 谷歌 今天 的 收盘价
+__label__qa_stock 说 一下 京东 现在 的 股价
+__label__qa_definition 假设 是 什么 意思
+__label__qa_factoid 自由 女神像 什么 时候 造 的
+__label__qa_factoid 迈克尔 菲尔 普斯 几岁 结婚
+__label__qa_factoid 谁 是 成龙
+__label__qa_definition 不 完整 罪 的 定义 是 什么
+__label__qa_factoid 帝国大厦 有 多 高
+__label__qa_currency 美元 和 印度卢比 的 汇率 是 多少
+__label__qa_factoid 描述 当前 的 政治
+__label__qa_factoid 鹿晗 什么 时候 出生 的
+__label__general_quirky 用 一个 字来 形容 你 自己
+__label__recommendation_locations 最近 的 意式 餐厅 在 哪里
+__label__qa_definition 你 能 告诉 我哈 吉斯 长 什么样 吗
+__label__qa_factoid 平克 正在 录制 新专辑 吗
+__label__qa_definition 对象 名称 的 定义
+__label__qa_definition 大众汽车 看起来 怎么样
+__label__general_quirky ipad   air   的 特点
+__label__qa_factoid 告诉 我太陽 和 月亮 的 距离
+__label__qa_definition 在 字典 中 找到 世界 的 意思
+__label__qa_factoid 什么 是 二零一 七年 最好 的 智能手机
+__label__qa_currency 我 将 得到 的 外币 汇率
+__label__general_quirky 给 我 这个 人 所有 信息
+__label__general_quirky 请 告诉 我 一些 有关 这个 人 的 细况
+__label__general_quirky 今天 美国 最 被 关注 的 议题 是 什么 以及 该 如何 有效 的 处理 他
+__label__qa_factoid 谁 是 美利坚合众国 的 第二十五 任 总统
+__label__general_quirky 告诉 我 不 坐飞机 的话 怎么 去 巴厘岛 最 便宜 时间 无所为 我 有 两百天 的 旅行 时间 但是 我 只用 美元
+__label__qa_definition 给 我 一个 笔记本 电路 的 描述
+__label__qa_stock 苹果 手机 股票 通常 什么 时候 下跌
+__label__qa_definition 解释
+__label__qa_factoid 向 我 解释 重力 是 如何 运作 的
+__label__qa_factoid 孙俪 和 邓超 是 什么 时候 结婚 的
+__label__qa_currency 美元 到 欧元 的 汇率
+__label__qa_definition 你 能 告诉 我 肥大 是 什么 意思 吗
+__label__qa_stock 股票 公司 名称
+__label__general_quirky 如果 我 的 机器人 能够 做 我 的 工作 我会 很 高兴
+__label__qa_definition 给 我 笔记本 电路 的 描述
+__label__qa_definition 定义   xy
+__label__qa_stock 给 我 华为 股票 的 开盘价
+__label__recommendation_locations 我 在 哪里 可以 买 到 有机 小麦
+__label__qa_stock 股票 谢谢
+__label__qa_currency 将 美元 兑换 为 卢比 汇率
+__label__qa_currency 美元 卢比 汇率
+__label__general_quirky 是 哪些因素 让 莫迪 赢得 了 选举
+__label__general_quirky 地震预报
+__label__cooking_query 好 的 谷歌 一下 做 火鸡 最 简单 快捷 的 方法 是 什么
+__label__general_quirky 肉鸡 是 什么样 的 器具 我该 如何 使用 它
+__label__qa_definition 为 我 定义 童子鸡
+__label__qa_factoid 自由 女神像 在 哪里
+__label__qa_definition 向 我 描述 球 的 样子
+__label__qa_factoid 艾利克 斯 告诉 我 你 对 鲍勃 · 迪恩 的 了解
+__label__qa_stock 告诉 我 阿里巴巴 的 股票价格
+__label__qa_stock 台积 电 的 股价 是 多少
+__label__qa_stock 谷歌 的 股票价值 是 多少
+__label__general_quirky 你 带来 了 一个 新 计划
+__label__qa_currency 将 一 英镑 兑换 成 美元
+__label__qa_stock 高 股价
+__label__qa_factoid 佳能 的 描述 中 列出 了 多少 百万 像素
+__label__qa_factoid 帕丽斯 希尔顿 是 如何 成名 的
+__label__qa_maths 二乘 三 等于 多少
+__label__qa_maths 十二 除以 四 等于 多少
+__label__qa_factoid 周迅 的 自然 发色 是 什么
+__label__qa_currency 如果 我 有 五美元 那 澳元 是 多少
+__label__qa_definition 为 我 定义 月球
+__label__qa_factoid 世界 上 有 多少 条 河流
+__label__qa_factoid 给 我 找 一些 摩羯座 的 名人
+__label__general_quirky 如果 是 消费品 那么 客户 的 反馈 是 什么
+__label__qa_currency 印度卢比 兑 美元 的 汇率 是 多少
+__label__qa_definition 请 你 描述 那个 物体
+__label__qa_factoid 被 美国 国家 航空 和 宇宙 航行 局 发射 的 第一颗 卫星 是 什么
+__label__qa_definition 请 向 我 描述 一头 大象
+__label__qa_currency 今天 美元汇率 是 多少
+__label__qa_factoid 凯特 王妃 怀孕 多久 了
+__label__qa_stock 乐购 的 股价 是 多少
+__label__general_quirky 我 希望 它 能 便捷 地 记录 存货 并且 有 东西 处于 低 存货 状态 时 告诉 我
+__label__qa_factoid 这 周 特朗普 在 做 什么
+__label__qa_definition 番茄酱 的 定义 是 什么
+__label__general_quirky 人们 如何 看待 他们 对 上帝 隐瞒 一切 的 行为
+__label__qa_currency 货币汇率
+__label__qa_definition 轮空 晋级 是 什么
+__label__qa_factoid 克里斯蒂 布林克 利 几岁
+__label__general_quirky 告诉 我 世界 是 怎么 形成 的
+__label__qa_currency 告诉 我 十美元 对 欧元 的 汇率
+__label__qa_definition 什么 是 电脑
+__label__qa_factoid 世界
+__label__qa_factoid 日本 有 多 大
+__label__transport_query 从 纽约 到 日本 有多远
+__label__recommendation_movies 你 能 告诉 我 今晚 中央 六 台 放映 什么 电影 吗
+__label__qa_definition olly   混乱 这个 词 的 定义 是 什么
+__label__qa_currency 奥利 美元 和 澳元 的 汇率 是 多少
+__label__qa_stock 苹果 交易 的 是 什么
+__label__qa_definition 嘿 奥利 被动 的 定义 是 什么
+__label__qa_factoid 阿尔伯特 · 爱因斯坦 提出 相对论 时多大
+__label__qa_factoid 计算 指数函数 从 零到 五 的 近似 积分
+__label__qa_factoid 请 告诉 我 英国 脱欧 在 长期 和 中期 内 将 如何 影响 欧盟 国民
+__label__qa_currency 请 查询 美元 和 墨西哥 元 的 汇率
+__label__qa_definition 奥利 找到 有关 三星 电视 的 说明
+__label__qa_currency 美元 的 汇率 是 多少
+__label__qa_factoid 有多远
+__label__qa_definition 这是 什么
+__label__qa_stock 国际商业机器公司 的 股价 在 什么 位置
+__label__social_query 微博有 什么 热 搜
+__label__social_query 我 妈妈 最后 说 了 什么
+__label__social_query 把 张 三 周末 的 微博 更新 给 我
+__label__social_query 找到 我 的 微博 最新 评论
+__label__social_query 我 最新 的 微博 照片 收到 多少 个赞 了
+__label__social_query 给 我 读 光明日报 最后 的 微博
+__label__social_post 在 微博发 一个 新 状态 说 庆祝 时间 到
+__label__social_query 我 的 微博 每 三个 小时 更新 一次
+__label__social_post 把 那个 发到 微博上
+__label__social_post 这 篇文章 很酷 ， 你 能 给 我 分享 一下 微博 的 链接 吗
+__label__social_post 在 优酷 上 播放 一个 视频
+__label__social_post 脸书 状态 忙碌 的 一天
+__label__social_post 请 发给 张三
+__label__social_post 请 在 微博上 提交 状态
+__label__social_query 给 我 显示 根据 我 的 亲戚 的 照片 列下 的 去过 的 地点
+__label__social_query 最新 的 微博 概要
+__label__social_query 给 我 我 的 微博 账号 的 详细信息 包括 粉丝 总数
+__label__social_post 你 能 把 这个 发到 我 的 微博上 吗
+__label__social_query 你 能 告诉 我 我 的 社交 媒体 怎么 了 吗
+__label__social_query 我 的 主页 最新 的 有 什么
+__label__social_query 当有 什么 状态 更新 的 时候 请 通知 我
+__label__social_query 社交 网络 上 的 热门
+__label__social_post 新微博
+__label__social_post 打开 微博祝 美国 生日快乐
+__label__social_post 我 对 腾讯 不 满意 请 帮帮我
+__label__social_post 你 能发 一条 微博给 生活 杂志 说 他们 的 微博 崩溃 了 吗
+__label__social_post 在 微博 发送 以下 的 东西
+__label__social_post 在 微博发 一个 写道
+__label__social_post 请 把 这张 照片 发到 我 的 微博上
+__label__social_post 给 中国电信 发推文 告诉 他们 我 的 应用程序 崩溃 了
+__label__social_post 告诉 我 的 微博 群组 我 已经 到 了
+__label__social_post 请 向 李宁 投诉
+__label__social_post 告诉 他们 他们 的 队伍 太长 了
+__label__general_quirky 我 需要 一个 食槽
+__label__social_post 在 微博发 这条 信息 给 华为
+__label__social_post 用 我 的 手机 在 微博 发图片
+__label__social_post 用 微博发 投诉 给 李宁 网站
+__label__social_post 给 春秋 航空 发微 博说 我 很 生气 你们 弄 丢 了 我 的 包
+__label__social_post 我 有 一个 糟糕 的 体验 我 需要 发微博 给 和 府 捞面
+__label__social_post 用 淘宝 客服 发 投诉
+__label__social_post 你 能 在 发 推特向 家具店 客服 投诉 吗
+__label__social_post 告诉 中国电信 我 还 在 等待
+__label__social_post 向 仁和 堂 投诉 我 今天 买 的 平板 电脑
+__label__social_post 让 国家电网 知道 他们 的 又 断电 了
+__label__social_post 通过 微博 联系 淘宝 客服 中心
+__label__social_query 请 更新 我 的 社交 媒体 账号
+__label__social_post 用 微博发 小米 的 投诉
+__label__social_post 发 一个 微博给 戴尔公司 关于 笔记本电脑 的 故障 服务
+__label__social_post 发微博 告诉 大润发 告诉 他们 他们 的 客户服务 很 糟糕
+__label__social_post 发 一条 微博给 大润发 告诉 他们 他们 的 客户服务 是 最差 的
+__label__social_post 以下 是 给 客服 投诉 的 微博
+__label__social_query 张三有 在 微博发 什么 新 的 吗
+__label__social_post 微博 永和 大王
+__label__calendar_set 提醒 我 在 这家 公司 发推特
+__label__social_post 在 微博上 写 我 病 了
+__label__social_post 在 微博上 发帖 我 很 开心
+__label__general_quirky 说明 情况
+__label__social_post 用 微博发 投诉 给 和 府 捞面
+__label__social_post 给 公司 发 一个 推文
+__label__social_post 用 微博发 关于 我 美的 冰箱 的 投诉
+__label__social_post 开放 微博 发布 视频 名称
+__label__social_post 微博上 的 帖子 让 我 度过 了 忙碌 的 一天
+__label__social_post 在 我 的 微博 账户 中 客户服务 不是 发微博 服务
+__label__social_post 发微博 投诉
+__label__social_query 在 我 的 微博 账号 是 那个 有 什么 新 的 照片
+__label__social_post 推特 莫 餐厅 的 服务 太差 了
+__label__social_post 帮 我 发微博 投诉 排水 堵塞
+__label__social_query 社会 信息
+__label__social_post 发微 博给 客服 说 我 对 我 最近 的 互动 感到 非常 失望
+__label__social_post 我 想 在 推 特发 一个 状态
+__label__email_query 我 什么 时候 收到 陈家 明 关于 车祸 的 电子邮件
+__label__email_query 如果 我 有 新 的 电子邮件 请 告诉 我
+__label__email_sendemail 给 李强 发 电子邮件 说 我 要 迟到 请 不要 等 我 吃晚饭
+__label__email_query 有 任何 来自 韩梅梅 的 电子邮件 吗
+__label__email_sendemail 你 能 帮 我 发送 一 封电子邮件 给 梅梅 吗
+__label__email_query 检查 我 的 收件箱
+__label__email_sendemail 发送 关于 明天 会议 的 电子邮件 给 李雷 李雷 我们 可以 下午 开会 吗
+__label__general_quirky olly   我 想 知道 英子 的 派对 的 詳情
+__label__email_sendemail 打开 我 最近 的 电子邮件 并 回复
+__label__email_sendemail 通过 电子邮件发送 这个 内容
+__label__email_sendemail 给 妈妈 发一 封电子邮件 主题 是 天气 这 星期 那里 的 天气 怎么样
+__label__email_query 检查 电子邮件 那些 来自 妈妈 的 未读 电子邮件
+__label__email_querycontact 请 给 我 我 的 联系人 里 阿兰 的 详细信息
+__label__email_querycontact 我 的 列表 中有 联系人 名字 叫 李雷 吗
+__label__email_sendemail 给   john   at   gmail   dot   com   发送 新年快乐
+__label__email_querycontact 家俊 的 姓 是 什么
+__label__email_sendemail 发送 一封 回复 给 我 的 朋友 回答 他 的 问题
+__label__email_query 查看 最近 两个 小时 的 电子邮件
+__label__email_query 检查 过去 的 十二 小时 的 邮件
+__label__email_addcontact 小爱 同学 将   erosser   at   hotmail   dot   com   添加 到 陈大文 的 新 联系人 中
+__label__email_query 如果 有 任何 来自 淘宝 的 新 电子邮件 请 告诉 我
+__label__email_sendemail 请 将 以下 消息 通过 电子邮件发送 给 此 联系人
+__label__email_query 看看 我 是否 收到 李雷 发来 的 与 预算 有关 的 电子邮件
+__label__email_addcontact 在 联系人 中 保存 此 电子邮件
+__label__email_sendemail 向小美 发送 她 最新 的 技术 主题
+__label__email_query 当小美 给我发 电子邮件 的 时候 通知 我
+__label__email_query 让 我 知道 从 下午 三点 开始 我 的 收件箱 里 都 有 什么
+__label__email_sendemail 你 能 帮 我发 电子邮件 给 我 的 朋友 李雷 告诉 他 明天 我 很 忙
+__label__email_query 查询 李雷 的 截止 日期
+__label__email_sendemail 嗨 发一 封电子邮件 给 同事
+__label__email_sendemail 在 此 电子邮件 中向 这位 同事 打开 这封 新 的 电子邮件
+__label__email_query 请 刷新 我 的 网易 邮箱 收件箱
+__label__email_sendemail 打个招呼
+__label__email_query 显示 来自 家明 最新 的 电子邮件
+__label__email_sendemail 发送 一 封电子邮件 给 我 的 领导
+__label__email_query 奥利 请 显示 最新 的 电子邮件
+__label__email_sendemail 发 电子邮件 给 林家 俊
+__label__email_query 最近 五分钟 内 有没有 收到 任何 电子邮件
+__label__email_sendemail 发一 封电子邮件 给 我 的 朋友 说 生日 祝福
+__label__email_querycontact 妈妈 的 电子邮件 地址 是 多少
+__label__email_sendemail 我 希望 这个 新 的 电子邮件 能够 添加 到 我 的 联系人 中
+__label__email_sendemail 发 电子邮件 给 李雷 告诉 他 我会 在 第二天 发送 文件
+__label__email_query 显示 最近 收到 的 所有 带有 时间 戳 的 邮件
+__label__email_query 给 我 看看 新 的 电子邮件
+__label__email_sendemail 打开 回复
+__label__email_sendemail 回复 这 封电子邮件
+__label__email_sendemail 给 梅梅 发邮件 告诉 她家 俊 爱 她 希望 她 周末 过得 愉快
+__label__email_sendemail 写 回复
+__label__email_querycontact 告诉 我 我 的 兄弟 的 联系人 详细信息
+__label__email_sendemail 将 这条 信息 加星标 发给 家庭 组
+__label__email_query 最近 有人 给我发 邮件 吗 每封 邮件 的 主题 是 什么
+__label__email_sendemail 天猫 精灵 请 回复 李雷 的 电子邮件 他 的 想法 非常 棒
+__label__email_sendemail 给 老板 发 电子邮件 开会 进行 业绩 审查
+__label__email_querycontact 鲍勃住 在 法国
+__label__email_query 如果 我 的 邮箱 收到 新邮件 请 通知 我
+__label__email_sendemail 把 消息 发送 电子邮件 写 嗨 兄弟 今晚 来 吃晚饭
+__label__email_sendemail 给 卖 船 的 家伙 发邮件 告诉 他 我 有钱 了
+__label__email_query 告诉 我 昨天 谁 发 了 关于 老板 的 邮件
+__label__email_query 诊所 对 我 的 检查 怎么 说
+__label__email_querycontact 我能 找到 联系人 的 信息 吗
+__label__email_query 朗读 我 的 未读 电子邮件
+__label__email_query 查看 新 电子邮件
+__label__email_query 你 能 帮 我查 一下 我 近期 有 任何 提醒 吗
+__label__email_sendemail 为 我 发送 一 封电子邮件
+__label__email_sendemail 回复 所有人
+__label__email_sendemail 告诉 林家 俊
+__label__email_sendemail 答谢
+__label__email_query 我 有 任何 新 的 来自 李雷 的 电子邮件 吗
+__label__email_query 有没有 关于 我 的 促销 的 电子邮件
+__label__email_query 嗨 查看 电子邮箱
+__label__email_query 给 我列 一份 上个星期 收到 的 所有 邮件 的 主题 和 发件人 清单
+__label__email_query 最近 谁给我 发邮件 了 邮件 内容 是 什么
+__label__email_sendemail 发送 电子邮件 给家俊
+__label__email_sendemail 启动 电子邮件
+__label__email_query 我 有 多少 未读 电子邮件
+__label__email_sendemail 发邮件 给家俊 什么 时间 吃 晚餐
+__label__email_sendemail 发送 电子邮件 给 北大 说 他们 的 服务 糟透了
+__label__email_query 请 查看 这个 联系人 最近 发来 的 电子邮件
+__label__email_query 打开 我 的 电子邮箱 帐户 并 检查 新 的 电子邮件
+__label__email_sendemail 发一 封电子邮件 给 我 的 老板 说 我会 迟到
+__label__email_query 我 有 什么 新 讯息 吗
+__label__email_query 打开 我 的 新 电子邮件
+__label__email_query 检查 来自 梅梅 的 电子邮件
+__label__email_sendemail 回复 家俊 的 电子邮件
+__label__email_query 今天 有 多少 电子邮件
+__label__email_query 我 的 妈妈 给我发 电子邮件 了 吗
+__label__email_sendemail 发送 电子邮件 给 妈妈 说 明天 想要 去 购物
+__label__email_query 检查 全部 来自 家俊 的 电子邮件
+__label__email_sendemail 你 能 帮 我 写 一封 邮件 给 韩梅梅 吗
+__label__email_query 天猫 精灵 请 查看 我 是否 收到 任何 来自 妈妈 的 电子邮件
+__label__email_sendemail 发送 一 封电子邮件 给 我 的 所有 公司员工
+__label__email_sendemail 给 地址 发送 电子邮件
+__label__email_sendemail 新 的 地址
+__label__email_query 谷歌 查找 我 星期五 添加 的 李雷 的 新 电子邮件 地址
+__label__email_querycontact 这 是 我 老板 的 正确 区 号 吗
+__label__email_sendemail 回复
+__label__email_querycontact 请 删除 我 已经 三个 月 没有 联系 的 联系人
+__label__email_sendemail 我 想 给   jack   at   gmail   dot   com   发送 电子邮件
+__label__email_sendemail 给 女儿 发 电子邮件 说 我爱你
+__label__email_sendemail 给 妈妈 发邮件 说 生日快乐
+__label__email_query 请 告诉 我 是否 小美 给我发 了 任何 电子邮件
+__label__email_query 有 任何 来自 老板 的 新 电子邮件 吗
+__label__email_query 在 过去 一 小时 我 有 任何 电子邮件 吗
+__label__email_query 有 任何人 的 电子邮件 发过来 吗
+__label__email_sendemail 打开 我 姐姐 的 昨天 的 电子邮件 单击 回复 然后 打开 语音 激活 以 获取 我 的 回复
+__label__email_querycontact 在 我 的 电话簿 里 我 有 多少 联系人
+__label__email_query 你 能 看 一下 李雷 给我发 的 邮件 是 关于 什么 的 吗
+__label__email_query 我 想 找到 鲍 勃发 来 的 主题 为 会议 的 电子邮件
+__label__email_sendemail 请 将 电子邮件发送 给 我 的 妈妈
+__label__email_query 家明 给我发 电子邮件 了 吗
+__label__email_query 看 我 的 电子邮件
+__label__email_sendemail 打开 李雷 的 电子邮件
+__label__email_query 为 联系人 查找 电子邮件
+__label__email_query 联系人
+__label__email_query 打开 我 的 电子邮件
+__label__email_querycontact 打开 名字 为 李雷 的 联系人
+__label__email_query 我 近期 发 过 电子邮件 给 谁
+__label__email_query 今天 的 邮箱 收件箱 里 分别 有 什么 以及 哪些 邮件 主题 和 发件人
+__label__email_querycontact 请 打开 我 的 通讯录
+__label__email_querycontact 打开 家明 的 联系人 资料
+__label__email_query 检查 所有 来自 于 陈家 明 的 电子邮件
+__label__email_sendemail 回复 家明
+__label__email_query 嗨 我 收到 任何 新 的 电子邮件 了 吗
+__label__email_sendemail 发邮件 给家明
+__label__email_query 检查 我 的 邮件
+__label__email_sendemail 邮件 苏珊 以及 提及
+__label__email_query 显示 未读
+__label__email_query 我 的 收件箱 中有 新 的 电子邮件 吗
+__label__email_sendemail 回复 邮件
+__label__email_sendemail 发送 电子邮件 给 韩女士 问 她 迪恩 是否 交了 最后 一份 家庭作业
+__label__email_sendemail 给 我 上 一 封电子邮件 发 回复
+__label__email_sendemail 在 六点半 回复 家明 的 电子邮件
+__label__email_query 我 都 有 哪些 邮件
+__label__email_sendemail 我 想 回复 韩梅梅 的 电子邮件
+__label__email_query 查查 陈家 明 的 电子邮件
+__label__email_query 有 任何 新 的 电子邮件 吗
+__label__email_query 帮 我 查看 收件箱
+__label__email_addcontact 将 这 封 邮件 保存 到 我 的 联系人
+__label__email_addcontact 保存 到 联系人
+__label__email_query 给 我 所有 最近 的 我 的 电子邮件
+__label__email_query 我 的 近期 邮箱 动态 是 什么
+__label__email_querycontact 给 我 联系人 电子邮件 地址
+__label__email_query 迈克尔 新 的 邮件
+__label__email_query 如果 小美有 新 电子邮件 立刻 告诉 我
+__label__email_query 从 下午 五点钟 开始 我 收到 过 任何 电子邮件 吗
+__label__email_query 我 今天 有 任何 大文 的 电子邮件 吗
+__label__email_sendemail 向 我 的 公司员工 发布 一封 包含 今天 的 预定 会议 信息 的 电子邮件
+__label__email_query 今天 我 有 任何 来自 于家明 的 新 电子邮件 吗
+__label__email_sendemail 发送 电子邮件 给家明
+__label__email_querycontact 拨打 李雷 的 手机号码
+__label__email_query 向 我 报告 有 任何 新 电子邮件 吗
+__label__email_query 我 收到 多少 未读 讯息
+__label__email_sendemail 请 回复 我 刚刚 朗读 的 电子邮件
+__label__email_query 李雷 今天 给 我 写信 了 吗
+__label__email_querycontact 大文 的 地址 是 什么
